@@ -1,0 +1,10 @@
+[
+    {
+        "model": "weeklyhuntapi.chosen_forms",
+        "pk": 1,
+        "fields": {
+            "name": "Staff",
+            "harm": 1
+        }
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 1,
+        "fields": {
+            "playbook": 1,
+            "description": "+1 Tough (max +3)"
+        }
+    }
+]

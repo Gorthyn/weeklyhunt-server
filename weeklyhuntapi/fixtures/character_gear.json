@@ -1,0 +1,10 @@
+[
+    {
+        "model": "weeklyhuntapi.character_gear",
+        "pk": 1,
+        "fields": {
+            "character": 5,
+            "gear": 24
+        }
+    }
+]

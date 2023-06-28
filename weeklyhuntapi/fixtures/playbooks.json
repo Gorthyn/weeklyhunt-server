@@ -1,0 +1,18 @@
+[
+    {
+        "model": "weeklyhuntapi.playbooks",
+        "pk": 1,
+        "fields": {
+            "name": "The Flake",
+            "luck_special": "When you spend a point of Luck, pick an aspect of the current situation. The Keeper will tell you what other conspiracies that aspect connects to.",
+            "required_move_slots": 0,
+            "optional_move_slots": 3,
+            "total_move_slots": 3,
+            "gear_slots": 3,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "A conspiracy theorist. The Flake is great at finding things out and seeing how the events of separate mysteries are connected. E.g. Agent Mulder or The Lone Gunman from the X-Files."
+        }
+    }
+]

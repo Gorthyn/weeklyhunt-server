@@ -1,0 +1,20 @@
+[
+    {
+        "model": "weeklyhuntapi.characters",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "playbook": 3,
+            "name": "The Professional",
+            "charm": 1,
+            "cool": 1,
+            "sharp": 2,
+            "tough": -1,
+            "weird": 0,
+            "luck": 7,
+            "harm": 0,
+            "experience": 0,
+            "imageURL": "https://example.com/image.png"
+        }
+    }
+]

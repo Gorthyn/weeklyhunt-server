@@ -1,0 +1,11 @@
+[
+    {
+        "model": "weeklyhuntapi.character_improvements",
+        "pk": 1,
+        "fields": {
+            "character": 2,
+            "improvement": 4,
+            "isChecked": true
+        }
+    }
+]

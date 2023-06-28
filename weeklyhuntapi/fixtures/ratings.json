@@ -1,0 +1,14 @@
+[
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 1,
+        "fields": {
+            "playbook": 1,
+            "charm": 1,
+            "cool": 1,
+            "sharp": 2,
+            "tough": -1,
+            "weird": 0
+        }
+    }
+]

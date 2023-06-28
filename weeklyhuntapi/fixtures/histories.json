@@ -1,0 +1,10 @@
+[
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 1,
+        "fields": {
+            "playbook": 3,
+            "description": "You are close blood relations. Ask them exactly how close."
+        }
+    }
+]

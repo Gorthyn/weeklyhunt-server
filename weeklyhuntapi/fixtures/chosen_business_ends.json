@@ -1,0 +1,10 @@
+[
+    {
+        "model": "weeklyhuntapi.chosen_business_ends",
+        "pk": 1,
+        "fields": {
+            "name": "Artifact",
+            "harm": 0
+        }
+    }
+]

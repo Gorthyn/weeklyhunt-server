@@ -1,0 +1,9 @@
+[
+    {
+        "model": "weeklyhuntapi.chosen_materials",
+        "pk": 1,
+        "fields": {
+            "name": "Steel"
+        }
+    }
+]

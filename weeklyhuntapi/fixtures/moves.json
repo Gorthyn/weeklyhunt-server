@@ -1,0 +1,12 @@
+[
+    {
+        "model": "weeklyhuntapi.moves",
+        "pk": 1,
+        "fields": {
+            "playbook": 1,
+            "isRequired": false,
+            "name": "Crazy Eyes",
+            "description": "You get +1 Weird (max +3)."
+        }
+    }
+]

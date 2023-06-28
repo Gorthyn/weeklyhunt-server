@@ -1,0 +1,11 @@
+[
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 1,
+        "fields": {
+            "name": ".22 Revolver",
+            "harm": 1,
+            "playbook": 4
+        }
+    }
+]

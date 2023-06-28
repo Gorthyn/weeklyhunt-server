@@ -1,0 +1,18 @@
+[
+    {
+        "model": "weeklyhuntapi.chosen_weapons",
+        "pk": 1,
+        "fields": {
+            "character": 4,
+            "form": 2,
+            "formHarm": 2,
+            "material": 2,
+            "businessEnd1": 3,
+            "businessEndHarm1": 1,
+            "businessEnd2": 4,
+            "businessEndHarm2": 1,
+            "businessEnd3": 2,
+            "businessEndHarm3": 1
+        }
+    }
+]

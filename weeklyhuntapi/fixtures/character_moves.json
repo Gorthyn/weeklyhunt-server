@@ -1,0 +1,10 @@
+[
+    {
+        "model": "weeklyhuntapi.character_moves",
+        "pk": 4,
+        "fields": {
+            "move": 1,
+            "character": 2
+        }
+    }
+]

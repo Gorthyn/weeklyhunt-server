@@ -1,0 +1,11 @@
+[
+    {
+        "model": "weeklyhuntapi.character_histories",
+        "pk": 1,
+        "fields": {
+            "character": 6,
+            "history": 13,
+            "characterName": "Slayer"
+        }
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "model": "weeklyhuntapi.basic_moves",
+        "pk": 1,
+        "fields": {
+            "name": "CHARM - Manipulate Someone"
+        }
+    }
+]
