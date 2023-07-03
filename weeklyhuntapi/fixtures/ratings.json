@@ -238,5 +238,245 @@
             "tough": -1,
             "weird": 1
         }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 21,
+        "fields": {
+            "playbook": 5,
+            "charm": 1,
+            "cool": 1,
+            "sharp": -1,
+            "tough": 2,
+            "weird": 0
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 22,
+        "fields": {
+            "playbook": 5,
+            "charm": -1,
+            "cool": 2,
+            "sharp": -1,
+            "tough": 2,
+            "weird": 0
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 23,
+        "fields": {
+            "playbook": 5,
+            "charm": -1,
+            "cool": 0,
+            "sharp": 1,
+            "tough": 2,
+            "weird": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 24,
+        "fields": {
+            "playbook": 5,
+            "charm": 1,
+            "cool": 1,
+            "sharp": 0,
+            "tough": 2,
+            "weird": -1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 25,
+        "fields": {
+            "playbook": 5,
+            "charm": -1,
+            "cool": 1,
+            "sharp": 0,
+            "tough": 2,
+            "weird": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 26,
+        "fields": {
+            "playbook": 6,
+            "charm": -1,
+            "cool": 1,
+            "sharp": 2,
+            "tough": 1,
+            "weird": 0
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 27,
+        "fields": {
+            "playbook": 6,
+            "charm": 0,
+            "cool": 1,
+            "sharp": 2,
+            "tough": -1,
+            "weird": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 28,
+        "fields": {
+            "playbook": 6,
+            "charm": 1,
+            "cool": -1,
+            "sharp": 2,
+            "tough": 1,
+            "weird": 0
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 29,
+        "fields": {
+            "playbook": 6,
+            "charm": -1,
+            "cool": 1,
+            "sharp": 2,
+            "tough": 0,
+            "weird": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 30,
+        "fields": {
+            "playbook": 6,
+            "charm": -1,
+            "cool": 0,
+            "sharp": 2,
+            "tough": -1,
+            "weird": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 31,
+        "fields": {
+            "playbook": 7,
+            "charm": -1,
+            "cool": 1,
+            "sharp": 0,
+            "tough": 1,
+            "weird": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 32,
+        "fields": {
+            "playbook": 7,
+            "charm": 0,
+            "cool": 1,
+            "sharp": 1,
+            "tough": -1,
+            "weird": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 33,
+        "fields": {
+            "playbook": 7,
+            "charm": -1,
+            "cool": 0,
+            "sharp": -1,
+            "tough": 2,
+            "weird": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 34,
+        "fields": {
+            "playbook": 7,
+            "charm": 1,
+            "cool": -1,
+            "sharp": 1,
+            "tough": 0,
+            "weird": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 35,
+        "fields": {
+            "playbook": 7,
+            "charm": 0,
+            "cool": 0,
+            "sharp": 0,
+            "tough": 1,
+            "weird": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 36,
+        "fields": {
+            "playbook": 8,
+            "charm": -1,
+            "cool": -1,
+            "sharp": 0,
+            "tough": 2,
+            "weird": 3
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 37,
+        "fields": {
+            "playbook": 8,
+            "charm": -1,
+            "cool": 1,
+            "sharp": 1,
+            "tough": 0,
+            "weird": 3
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 38,
+        "fields": {
+            "playbook": 8,
+            "charm": 2,
+            "cool": 0,
+            "sharp": -1,
+            "tough": -1,
+            "weird": 3
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 39,
+        "fields": {
+            "playbook": 8,
+            "charm": -2,
+            "cool": 2,
+            "sharp": 0,
+            "tough": 0,
+            "weird": 3
+        }
+    },
+    {
+        "model": "weeklyhuntapi.ratings",
+        "pk": 40,
+        "fields": {
+            "playbook": 8,
+            "charm": 0,
+            "cool": -1,
+            "sharp": 2,
+            "tough": -1,
+            "weird": 3
+        }
     }
 ]
