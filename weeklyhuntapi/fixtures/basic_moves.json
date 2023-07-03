@@ -5,5 +5,54 @@
         "fields": {
             "name": "CHARM - Manipulate Someone"
         }
+    },
+    {
+        "model": "weeklyhuntapi.basic_moves",
+        "pk": 2,
+        "fields": {
+            "name": "COOL - Act Under Pressure"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.basic_moves",
+        "pk": 3,
+        "fields": {
+            "name": "COOL - Help Out"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.basic_moves",
+        "pk": 4,
+        "fields": {
+            "name": "SHARP - Read A Bad Situation"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.basic_moves",
+        "pk": 5,
+        "fields": {
+            "name": "SHARP - Investigate A Mystery"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.basic_moves",
+        "pk": 6,
+        "fields": {
+            "name": "TOUGH - Kick Some Ass"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.basic_moves",
+        "pk": 7,
+        "fields": {
+            "name": "TOUGH - Protect Someone"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.basic_moves",
+        "pk": 8,
+        "fields": {
+            "name": "WEIRD - Use Magic"
+        }
     }
 ]
