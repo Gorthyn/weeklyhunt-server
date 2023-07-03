@@ -1,6 +1,6 @@
 [
     {
-        "model": "weeklyhuntapi.playbooks",
+        "model": "weeklyhuntapi.playbook",
         "pk": 1,
         "fields": {
             "name": "The Flake",
@@ -13,6 +13,182 @@
             "harm_slots": 7,
             "experience_slots": 5,
             "description": "A conspiracy theorist. The Flake is great at finding things out and seeing how the events of separate mysteries are connected. E.g. Agent Mulder or The Lone Gunman from the X-Files."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 2,
+        "fields": {
+            "name": "The Mundane",
+            "luck_special": "When you spend a point of Luck, you’ll find something weird— maybe even useful!",
+            "required_move_slots": 0,
+            "optional_move_slots": 3,
+            "total_move_slots": 3,
+            "gear_slots": 2,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "Just a normal regular person, especially good at dealing with regular people you meet and have to save, and at getting captured by monsters - which can be more useful than you might think. E.g. Xander or Cordelia from Buffy the Vampire Slayer, Olivia Dunham from Fringe."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 3,
+        "fields": {
+            "name": "The Chosen",
+            "luck_special": "When you spend a point of Luck, the Keeper will bring your fate into play.",
+            "required_move_slots": 2,
+            "optional_move_slots": 1,
+            "total_move_slots": 3,
+            "gear_slots": 0,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "A once-ordinary person who discovered they have a special destiny, and who has been given the power to accomplish it. The Chosen is good in a fight, with some weird powers. E.g. Buffy from Buffy the Vampire Slayer."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 4,
+        "fields": {
+            "name": "The Crooked",
+            "luck_special": "Whenever you spend a Luck point, someone from your past will re-appear in your life. Soon.",
+            "required_move_slots": 0,
+            "optional_move_slots": 2,
+            "total_move_slots": 2,
+            "gear_slots": 3,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "A criminal turned monster hunter, haunted by their past and enemies. The Crooked is good in social situations and has a lot of contacts. E.g. Anna Valmont from The Dresden Files, Peter Bishop from Fringe."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 5,
+        "fields": {
+            "name": "The Divine",
+            "luck_special": "When you spend a point of Luck, you get word your Mission requires something difficult that must be done. By you. Urgently.",
+            "required_move_slots": 0,
+            "optional_move_slots": 3,
+            "total_move_slots": 3,
+            "gear_slots": 1,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "An agent of a higher power, with a mission to fulfill. The Divine is very tough and has been granted holy powers. E.g. Castiel from Supernatural; Michael Carpenter from The Dresden Files."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 6,
+        "fields": {
+            "name": "The Expert",
+            "luck_special": "When you spend a point of Luck, you discover something happening now is related to something you were involved in years ago.",
+            "required_move_slots": 0,
+            "optional_move_slots": 2,
+            "total_move_slots": 2,
+            "gear_slots": 3,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "The hunter who knows all about monsters and magic. The Expert knows a lot of hidden secrets and how to find out more, and also has a well-supplied base to work from. E.g. Bobby Singer from Supernatural; Rupert Giles from Buffy the Vampire Slayer."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 7,
+        "fields": {
+            "name": "The Initiate",
+            "luck_special": "When you spend a point of Luck, something goes wrong for your Sect: an ill-advised project or a disastrous operation.",
+            "required_move_slots": 1,
+            "optional_move_slots": 3,
+            "total_move_slots": 4,
+            "gear_slots": 3,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "A member of an ancient monster-slaying Sect, trained to fight and use magic. The Initiate is good with magic, and their Sect provides help (and sometimes problems). E.g. The Wardens from The Dresden Files; Annelise from the Twenty Palaces series."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 8,
+        "fields": {
+            "name": "The Monstrous",
+            "luck_special": "When you spend a point of Luck, your monster side gains power: your Curse may become stronger, or another Breed disadvantage may manifest.",
+            "required_move_slots": 0,
+            "optional_move_slots": 2,
+            "total_move_slots": 2,
+            "gear_slots": 1,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "A monster fighting for the good guys. The Monstrous is very weird, and can have a variety of different powers based on what monster breed they are. E.g. Angel from Buffy the Vampire Slayer and Angel; Bill Compton from True Blood."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 9,
+        "fields": {
+            "name": "The Professional",
+            "luck_special": "When you spend a point of Luck, your next mission from the Agency comes with lots of Red Tape. Lots.",
+            "required_move_slots": 1,
+            "optional_move_slots": 4,
+            "total_move_slots": 5,
+            "gear_slots": 3,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "You work for an agency that hunts monsters. The Professional is good in a fight, and a good team player. E.g. Riley and the Initiative from Buffy the Vampire Slayer; Olivia Dunham from Fringe."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 10,
+        "fields": {
+            "name": "The Spell-Slinger",
+            "luck_special": "When you spend a point of Luck, the official council of wizards is going to poke their nose into your business.",
+            "required_move_slots": 1,
+            "optional_move_slots": 3,
+            "total_move_slots": 4,
+            "gear_slots": 1,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "A trained wizard, wielding powerful magic in their crusade against evil. The Spell-slinger’s arcane training gives them an advantage when dealing with eldritch secrets. E.g. Harry Dresden from The Dresden Files; Willow from Buffy the Vampire Slayer, in the later seasons."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 11,
+        "fields": {
+            "name": "The Spooky",
+            "luck_special": "As you mark off Luck boxes, your dark side’s needs will get nastier.",
+            "required_move_slots": 0,
+            "optional_move_slots": 3,
+            "total_move_slots": 3,
+            "gear_slots": 2,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "Has psychic or magical powers. These powers are strange and sinister ... and not completely under the Spooky’s control. E.g. Sam Winchester from Supernatural; Eleven from Stranger Things."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.playbook",
+        "pk": 12,
+        "fields": {
+            "name": "The Wronged",
+            "luck_special": "When you spend a point of Luck, you find a dangerous lead on your prey.",
+            "required_move_slots": 1,
+            "optional_move_slots": 2,
+            "total_move_slots": 3,
+            "gear_slots": 3,
+            "luck_slots": 7,
+            "harm_slots": 7,
+            "experience_slots": 5,
+            "description": "Revenge-driven, and really tough. The Wronged is all about killing a specific breed of monster and protecting others as you do it. E.g. Dean and John Winchester from Supernatural."
         }
     }
 ]
