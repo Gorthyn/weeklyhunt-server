@@ -7,5 +7,860 @@
             "harm": 1,
             "playbook": 4
         }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 2,
+        "fields": {
+            "name": ".38 Revolver",
+            "harm": 2,
+            "playbook": 4
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 3,
+        "fields": {
+            "name": "9mm Pistol",
+            "harm": 2,
+            "playbook": 4
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 4,
+        "fields": {
+            "name": "Shotgun",
+            "harm": 3,
+            "playbook": 4
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 5,
+        "fields": {
+            "name": "Hunting Rifle",
+            "harm": 2,
+            "playbook": 4
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 6,
+        "fields": {
+            "name": "Big Knife",
+            "harm": 1,
+            "playbook": 4
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 7,
+        "fields": {
+            "name": "Baseball Bat",
+            "harm": 1,
+            "playbook": 4
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 8,
+        "fields": {
+            "name": "Submachine Gun",
+            "harm": 2,
+            "playbook": 4
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 9,
+        "fields": {
+            "name": "Assault Rifle",
+            "harm": 3,
+            "playbook": 4
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 10,
+        "fields": {
+            "name": "Flaming Sword",
+            "harm": 3,
+            "playbook": 5
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 11,
+        "fields": {
+            "name": "Thunder Hammer",
+            "harm": 3,
+            "playbook": 5
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 12,
+        "fields": {
+            "name": "Five Demons Bag",
+            "harm": 3,
+            "playbook": 5
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 13,
+        "fields": {
+            "name": "Silver Trident",
+            "harm": 3,
+            "playbook": 5
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 14,
+        "fields": {
+            "name": "Mallet and Wooden Stakes",
+            "harm": 3,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 15,
+        "fields": {
+            "name": "Silver Sword",
+            "harm": 2,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 16,
+        "fields": {
+            "name": "Cold Iron Sword",
+            "harm": 2,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 17,
+        "fields": {
+            "name": "Blessed Knife",
+            "harm": 2,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 18,
+        "fields": {
+            "name": "Magical Dagger",
+            "harm": 2,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 19,
+        "fields": {
+            "name": "Juju Bag",
+            "harm": 1,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 20,
+        "fields": {
+            "name": "Flamethrower",
+            "harm": 3,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 21,
+        "fields": {
+            "name": "Magnum",
+            "harm": 3,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 22,
+        "fields": {
+            "name": "Shotgun",
+            "harm": 3,
+            "playbook": 6
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 23,
+        "fields": {
+            "name": ".38 Revolver",
+            "harm": 2,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 24,
+        "fields": {
+            "name": "9mm Pistol",
+            "harm": 2,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 25,
+        "fields": {
+            "name": "Hunting Rifle",
+            "harm": 2,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 26,
+        "fields": {
+            "name": "Magnum",
+            "harm": 3,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 27,
+        "fields": {
+            "name": "Shotgun",
+            "harm": 3,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 28,
+        "fields": {
+            "name": "Big Knife",
+            "harm": 1,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 29,
+        "fields": {
+            "name": "Throwing Knives (Concealed)",
+            "harm": 1,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 30,
+        "fields": {
+            "name": "Holdout Pistol (Concealed)",
+            "harm": 2,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 31,
+        "fields": {
+            "name": "Garrote (Concealed)",
+            "harm": 3,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 32,
+        "fields": {
+            "name": "Watchman's Flashlight (Concealed)",
+            "harm": 1,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 33,
+        "fields": {
+            "name": "Weighted Gloves or Brass Knuckles (Concealed)",
+            "harm": 1,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 34,
+        "fields": {
+            "name": "Butterfly Knife or Folding Knife (Concealed)",
+            "harm": 1,
+            "playbook": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 35,
+        "fields": {
+            "name": "Sword (Old Fashioned)",
+            "harm": 2,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 36,
+        "fields": {
+            "name": "Axe (Old Fashioned)",
+            "harm": 2,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 37,
+        "fields": {
+            "name": "Big Sword (Old Fashioned)",
+            "harm": 3,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 38,
+        "fields": {
+            "name": "Big Axe (Old Fashioned)",
+            "harm": 3,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 39,
+        "fields": {
+            "name": "Silver Knife (Old Fashioned)",
+            "harm": 1,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 40,
+        "fields": {
+            "name": "Fighting Sticks (Old Fashioned)",
+            "harm": 1,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 41,
+        "fields": {
+            "name": "Spear (Old Fashioned)",
+            "harm": 2,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 42,
+        "fields": {
+            "name": "Mace (Old Fashioned)",
+            "harm": 2,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 43,
+        "fields": {
+            "name": "Crossbow (Old Fashioned)",
+            "harm": 2,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 44,
+        "fields": {
+            "name": ".38 Revolver (Modern)",
+            "harm": 2,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 45,
+        "fields": {
+            "name": "9mm Pistol",
+            "harm": 2,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 46,
+        "fields": {
+            "name": "Sniper Rifle (Modern)",
+            "harm": 3,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 47,
+        "fields": {
+            "name": "Magnum (Modern)",
+            "harm": 3,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 48,
+        "fields": {
+            "name": "Shotgun (Modern)",
+            "harm": 3,
+            "playbook": 7
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 49,
+        "fields": {
+            "name": ".38 Revolver",
+            "harm": 2,
+            "playbook": 8
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 50,
+        "fields": {
+            "name": "9mm Pistol",
+            "harm": 2,
+            "playbook": 8
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 51,
+        "fields": {
+            "name": "Magnum",
+            "harm": 3,
+            "playbook": 8
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 52,
+        "fields": {
+            "name": "Shotgun",
+            "harm": 3,
+            "playbook": 8
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 53,
+        "fields": {
+            "name": "Big Knife",
+            "harm": 1,
+            "playbook": 8
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 54,
+        "fields": {
+            "name": "Brass Knuckles",
+            "harm": 1,
+            "playbook": 8
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 55,
+        "fields": {
+            "name": "Sword",
+            "harm": 2,
+            "playbook": 8
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 56,
+        "fields": {
+            "name": "Huge Sword",
+            "harm": 3,
+            "playbook": 8
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 57,
+        "fields": {
+            "name": "Golf Club",
+            "harm": 2,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 58,
+        "fields": {
+            "name": "Baseball Bat",
+            "harm": 2,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 59,
+        "fields": {
+            "name": "Cricket Bat",
+            "harm": 2,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 60,
+        "fields": {
+            "name": "Hockey Stick",
+            "harm": 2,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 61,
+        "fields": {
+            "name": "Pocket Knife or Multitool",
+            "harm": 1,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 62,
+        "fields": {
+            "name": "Small Handgun",
+            "harm": 2,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 63,
+        "fields": {
+            "name": "Hunting Rifle",
+            "harm": 3,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 64,
+        "fields": {
+            "name": "Sledge-hammer or Fire Axe",
+            "harm": 3,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 65,
+        "fields": {
+            "name": "Nunchucks",
+            "harm": 2,
+            "playbook": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 66,
+        "fields": {
+            "name": "Assault Rifle (Serious)",
+            "harm": 3,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 67,
+        "fields": {
+            "name": "Grenade Launcher (Serious)",
+            "harm": 4,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 68,
+        "fields": {
+            "name": "Sniper Rifle (Serious)",
+            "harm": 4,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 69,
+        "fields": {
+            "name": "Grenades (Serious)",
+            "harm": 4,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 70,
+        "fields": {
+            "name": "Submachine Gun (Serious)",
+            "harm": 3,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 71,
+        "fields": {
+            "name": ".38 Revolver (Normal)",
+            "harm": 2,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 72,
+        "fields": {
+            "name": "9mm Pistol (Normal)",
+            "harm": 2,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 73,
+        "fields": {
+            "name": "Hunting Rifle (Normal)",
+            "harm": 2,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 74,
+        "fields": {
+            "name": "Shotgun (Normal)",
+            "harm": 3,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 75,
+        "fields": {
+            "name": "Big Knife (Normal)",
+            "harm": 1,
+            "playbook": 9
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 76,
+        "fields": {
+            "name": "Old Revolver",
+            "harm": 2,
+            "playbook": 10
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 77,
+        "fields": {
+            "name": "Ritual Knife",
+            "harm": 1,
+            "playbook": 10
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 78,
+        "fields": {
+            "name": "Heirloom Sword",
+            "harm": 2,
+            "playbook": 10
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 79,
+        "fields": {
+            "name": ".38 Revolver",
+            "harm": 2,
+            "playbook": 11
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 80,
+        "fields": {
+            "name": "9mm Pistol",
+            "harm": 2,
+            "playbook": 11
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 81,
+        "fields": {
+            "name": "Hunting Rifle",
+            "harm": 2,
+            "playbook": 11
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 82,
+        "fields": {
+            "name": "Shotgun",
+            "harm": 3,
+            "playbook": 11
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 83,
+        "fields": {
+            "name": "Big Knife",
+            "harm": 1,
+            "playbook": 11
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 84,
+        "fields": {
+            "name": "Sawn-off Shotgun (Signature)",
+            "harm": 3,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 85,
+        "fields": {
+            "name": "Hand Cannon (Signature)",
+            "harm": 3,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 86,
+        "fields": {
+            "name": "Fighting Knife (Signature)",
+            "harm": 2,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 87,
+        "fields": {
+            "name": "Huge Sword or Huge Axe (Signature)",
+            "harm": 3,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 88,
+        "fields": {
+            "name": "Enchanted Dagger (Signature)",
+            "harm": 2,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 89,
+        "fields": {
+            "name": "Chainsaw (Signature)",
+            "harm": 3,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 90,
+        "fields": {
+            "name": ".38 Revolver (Practical)",
+            "harm": 2,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 91,
+        "fields": {
+            "name": "9mm Pistol (Practical)",
+            "harm": 2,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 92,
+        "fields": {
+            "name": "Hunting Rifle (Practical)",
+            "harm": 2,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 93,
+        "fields": {
+            "name": "Shotgun (Practical)",
+            "harm": 3,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 94,
+        "fields": {
+            "name": "Big Knife (Practical)",
+            "harm": 1,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 95,
+        "fields": {
+            "name": "Brass Knuckles (Practical)",
+            "harm": 1,
+            "playbook": 12
+        }
+    },
+    {
+        "model": "weeklyhuntapi.gear",
+        "pk": 96,
+        "fields": {
+            "name": "Assault Rifle (Practical)",
+            "harm": 3,
+            "playbook": 12
+        }
     }
 ]

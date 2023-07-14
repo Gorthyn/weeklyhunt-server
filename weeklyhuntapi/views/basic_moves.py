@@ -1,10 +1,12 @@
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
-from rest_framework import serializers, status
+from rest_framework import serializers, status, permissions
 from weeklyhuntapi.models import BasicMove
 
 class BasicMoveView(ViewSet):
     """Weekly Hunt basic moves view"""
+
+    permission_classes = [permissions.AllowAny]
 
     def retrieve(self, request, pk=None):
         """Handle GET requests for single move"""

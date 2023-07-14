@@ -1,6 +1,6 @@
 [
     {
-        "model": "weeklyhuntapi.moves",
+        "model": "weeklyhuntapi.move",
         "pk": 1,
         "fields": {
             "playbook": 1,
