@@ -6,5 +6,29 @@
             "name": "Staff",
             "harm": 1
         }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_forms",
+        "pk": 2,
+        "fields": {
+            "name": "Haft",
+            "harm": 2
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_forms",
+        "pk": 3,
+        "fields": {
+            "name": "Handle",
+            "harm": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_forms",
+        "pk": 4,
+        "fields": {
+            "name": "Chain",
+            "harm": 1
+        }
     }
 ]
