@@ -6,5 +6,53 @@
             "name": "Artifact",
             "harm": 0
         }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_business_ends",
+        "pk": 2,
+        "fields": {
+            "name": "Spikes",
+            "harm": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_business_ends",
+        "pk": 3,
+        "fields": {
+            "name": "Blade",
+            "harm": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_business_ends",
+        "pk": 4,
+        "fields": {
+            "name": "Heavy",
+            "harm": 1
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_business_ends",
+        "pk": 5,
+        "fields": {
+            "name": "Long",
+            "harm": 0
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_business_ends",
+        "pk": 6,
+        "fields": {
+            "name": "Throwable",
+            "harm": 0
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_business_ends",
+        "pk": 7,
+        "fields": {
+            "name": "Chain",
+            "harm": 0
+        }
     }
 ]
