@@ -254,5 +254,261 @@
             "playbook": 6,
             "description": "You saved their life in a tight spot. Tell them what happened."
         }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 33,
+        "fields": {
+            "playbook": 1,
+            "description": "They’re somehow tied into it all. You’ve been keeping an eye on them."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 34,
+        "fields": {
+            "playbook": 1,
+            "description": "They’re a close relative. Ask them to decide exactly what."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 35,
+        "fields": {
+            "playbook": 1,
+            "description": "Old friends, who originally met through a long chain of coincidences."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 36,
+        "fields": {
+            "playbook": 1,
+            "description": "You went through hell together: maybe a monster, maybe military service, maybe time in an institution. Whatever it was, it bound you together, and you have total trust in each other."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 37,
+        "fields": {
+            "playbook": 1,
+            "description": "Members of the same support group."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 38,
+        "fields": {
+            "playbook": 1,
+            "description": "Fellow freaks."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 39,
+        "fields": {
+            "playbook": 1,
+            "description": "The signs all pointed to working together. So you found them and now you work together."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 40,
+        "fields": {
+            "playbook": 1,
+            "description": "You know each other through cryptozoology and conspiracy theory websites."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 41,
+        "fields": {
+            "playbook": 7,
+            "description": "They are a lay member of your Sect."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 42,
+        "fields": {
+            "playbook": 7,
+            "description": "You fought together when the tide of monsters seemed unstoppable. Ask them how it went."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 43,
+        "fields": {
+            "playbook": 7,
+            "description": "Friends, but they first met you under your cover identity, and learned about the Sect later. Ask how they feel about that."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 44,
+        "fields": {
+            "playbook": 7,
+            "description": "They are your close relative, or partner/spouse. Decide between you exactly what the relationship is."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 45,
+        "fields": {
+            "playbook": 7,
+            "description": "Fellow ancient weapons/martial arts club members."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 46,
+        "fields": {
+            "playbook": 7,
+            "description": "They’re described in the prophecies, but the role they will play isn’t stated."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 47,
+        "fields": {
+            "playbook": 7,
+            "description": "An ex-member of the Sect, but still friends. Ask them why they left or got thrown out."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 48,
+        "fields": {
+            "playbook": 7,
+            "description": "You met researching mystical weirdness, and you’ve been occult comrades ever since."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 49,
+        "fields": {
+            "playbook": 8,
+            "description": "You lost control one time, and almost killed them. Ask them how they stopped you."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 50,
+        "fields": {
+            "playbook": 8,
+            "description": "They tried to slay you, but you proved you’re on the side of good. Ask them what convinced them."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 51,
+        "fields": {
+            "playbook": 8,
+            "description": "You are romantically obsessed with them. Ask them if they know, and if they reciprocate."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 52,
+        "fields": {
+            "playbook": 8,
+            "description": "Close relations, or a distant descendant. Tell them which."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 53,
+        "fields": {
+            "playbook": 8,
+            "description": "You saved them from another of your kind, and prevented reprisals against that individual creature (maybe it’s another good one, or maybe it has a hold over you)."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 54,
+        "fields": {
+            "playbook": 8,
+            "description": "They are tied to your curse or origin. Tell them how."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 55,
+        "fields": {
+            "playbook": 8,
+            "description": "You fought together against the odds, and prevailed."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 56,
+        "fields": {
+            "playbook": 8,
+            "description": "They saved you from another hunter who was prepared to kill you. Ask them what happened."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 57,
+        "fields": {
+            "playbook": 2,
+            "description": "You are close relations. Tell them exactly how you’re related."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 58,
+        "fields": {
+            "playbook": 2,
+            "description": "Initially rivals, you both now respect each others’ talents."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 59,
+        "fields": {
+            "playbook": 2,
+            "description": "Romantically involved, or you just have a crush on them. Ask them which they prefer."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 60,
+        "fields": {
+            "playbook": 2,
+            "description": "They’re your hero, exactly the kind of monster hunter you aspire to be. Tell them why you worship them."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 61,
+        "fields": {
+            "playbook": 2,
+            "description": "Good friends. Tell them if it’s from way back, or recently."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 62,
+        "fields": {
+            "playbook": 2,
+            "description": "You’re a bit suspicious of them (maybe due to their unnatural powers or something like that)."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 63,
+        "fields": {
+            "playbook": 2,
+            "description": "They introduced you to the existence of monsters. Tell them how you feel about that."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 64,
+        "fields": {
+            "playbook": 2,
+            "description": "You saved their life from a monster due to an unlikely chain of events. Tell them what."
+        }
     }
 ]
