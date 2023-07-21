@@ -6,5 +6,253 @@
             "playbook": 3,
             "description": "You are close blood relations. Ask them exactly how close."
         }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 2,
+        "fields": {
+            "playbook": 3,
+            "description": "They are destined to be your mentor. Tell them how this was revealed."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 3,
+        "fields": {
+            "playbook": 3,
+            "description": "Your best friend in the world, who you trust totally."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 4,
+        "fields": {
+            "playbook": 3,
+            "description": "A rival at first, but you came to a working arrangement."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 5,
+        "fields": {
+            "playbook": 3,
+            "description": "Romantic entanglement, or fated to be romantically entangled."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 6,
+        "fields": {
+            "playbook": 3,
+            "description": "Just friends, from school or work or something. Ask them what."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 7,
+        "fields": {
+            "playbook": 3,
+            "description": "They could have been the Chosen One instead of you, but they failed some trial. Tell them how they failed."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 8,
+        "fields": {
+            "playbook": 3,
+            "description": "You saved their life, back when they didn’t know monsters were real. Tell them what you saved them from."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 9,
+        "fields": {
+            "playbook": 4,
+            "description": "This hunter knows about your criminal past. Tell them what crimes they saw you commit."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 10,
+        "fields": {
+            "playbook": 4,
+            "description": "This hunter was there when you decided to give up the life and hunt monsters instead. Work out together what happened."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 11,
+        "fields": {
+            "playbook": 4,
+            "description": "This hunter is your younger sibling or child (possibly adopted). You look out for them."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 12,
+        "fields": {
+            "playbook": 4,
+            "description": "This hunter is a cousin or more distant relative."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 13,
+        "fields": {
+            "playbook": 4,
+            "description": "This hunter saved your life when a monster had the drop on you. Now you owe them one."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 14,
+        "fields": {
+            "playbook": 4,
+            "description": "This hunter worked with you on a semi-legal or illegal job. Work out what it was."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 15,
+        "fields": {
+            "playbook": 4,
+            "description": "This hunter is your moral compass. When you talk over things with them, their advice keeps you on the straight and narrow."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 16,
+        "fields": {
+            "playbook": 4,
+            "description": "You’re powerfully attracted to this hunter. Maybe someday you’ll deserve them."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 17,
+        "fields": {
+            "playbook": 5,
+            "description": "Their prayer (perhaps an informal or even unconscious prayer) summoned you."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 18,
+        "fields": {
+            "playbook": 5,
+            "description": "If you are protecting another hunter as your mission, tell them this: You have a crucial role in what is to come. I am here to guide and defend you."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 19,
+        "fields": {
+            "playbook": 5,
+            "description": "They should not be involved in this situation: the prophecies didn’t mention them at all. This gets your attention but you don’t know what it means yet."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 20,
+        "fields": {
+            "playbook": 5,
+            "description": "They are, at heart, a good and righteous person. You must help them stay that way."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 21,
+        "fields": {
+            "playbook": 5,
+            "description": "They are an abomination, and should be destroyed. Except you can’t–work out with them why not."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 22,
+        "fields": {
+            "playbook": 5,
+            "description": "They fill you with feelings of sexual infatuation. You are confused by the associated mortal emotions."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 23,
+        "fields": {
+            "playbook": 5,
+            "description": "They saved your life, and you understand (intellectually at least) that you owe them for it."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 24,
+        "fields": {
+            "playbook": 5,
+            "description": "They’re the person you go to for advice on mortal stuff (e.g sex, food, drugs, television, etc)."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 25,
+        "fields": {
+            "playbook": 6,
+            "description": "They are your student, apprentice, ward, or child. Between you, decide which."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 26,
+        "fields": {
+            "playbook": 6,
+            "description": "They came to you for advice, and your advice got them out of trouble. Ask them what the trouble was."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 27,
+        "fields": {
+            "playbook": 6,
+            "description": "They know about some of your dark secrets, but they’ve agreed to keep quiet about them. Tell them what they know."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 28,
+        "fields": {
+            "playbook": 6,
+            "description": "A distant relation. Tell them exactly what."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 29,
+        "fields": {
+            "playbook": 6,
+            "description": "You were previously both members of an eldritch group, now disbanded. Ask them why they left, then tell them why you did."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 30,
+        "fields": {
+            "playbook": 6,
+            "description": "They once helped you get a singular item that is now part of your haven. Tell them what it was."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 31,
+        "fields": {
+            "playbook": 6,
+            "description": "You were taught by the same master. Ask them how it ended."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.histories",
+        "pk": 32,
+        "fields": {
+            "playbook": 6,
+            "description": "You saved their life in a tight spot. Tell them what happened."
+        }
     }
 ]
