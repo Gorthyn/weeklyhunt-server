@@ -5,5 +5,54 @@
         "fields": {
             "name": "Steel"
         }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_materials",
+        "pk": 2,
+        "fields": {
+            "name": "Cold Iron"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_materials",
+        "pk": 3,
+        "fields": {
+            "name": "Silver"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_materials",
+        "pk": 4,
+        "fields": {
+            "name": "Wood"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_materials",
+        "pk": 5,
+        "fields": {
+            "name": "Stone"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_materials",
+        "pk": 6,
+        "fields": {
+            "name": "Bone"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_materials",
+        "pk": 7,
+        "fields": {
+            "name": "Teeth"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.chosen_materials",
+        "pk": 8,
+        "fields": {
+            "name": "Obsidian"
+        }
     }
 ]
