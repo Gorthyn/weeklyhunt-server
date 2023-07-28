@@ -610,5 +610,311 @@
             "category": "Clothes",
             "description": "Non-descript clothes"
         }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 69,
+        "fields": {
+            "playbook": 5,
+            "category": "Gender",
+            "description": "Male"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 70,
+        "fields": {
+            "playbook": 5,
+            "category": "Gender",
+            "description": "Female"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 71,
+        "fields": {
+            "playbook": 5,
+            "category": "Gender",
+            "description": "Non-binary"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 72,
+        "fields": {
+            "playbook": 5,
+            "category": "Look",
+            "description": "Human"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 73,
+        "fields": {
+            "playbook": 5,
+            "category": "Look",
+            "description": "Marked by divinity"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 74,
+        "fields": {
+            "playbook": 5,
+            "category": "Look",
+            "description": "Inhuman"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 75,
+        "fields": {
+            "playbook": 5,
+            "category": "Eyes",
+            "description": "Blazing eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 76,
+        "fields": {
+            "playbook": 5,
+            "category": "Eyes",
+            "description": "Terrifying eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 77,
+        "fields": {
+            "playbook": 5,
+            "category": "Eyes",
+            "description": "Placid eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 78,
+        "fields": {
+            "playbook": 5,
+            "category": "Eyes",
+            "description": "Sparkling eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 79,
+        "fields": {
+            "playbook": 5,
+            "category": "Eyes",
+            "description": "Perceptive eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 80,
+        "fields": {
+            "playbook": 5,
+            "category": "Eyes",
+            "description": "Starry eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 81,
+        "fields": {
+            "playbook": 5,
+            "category": "Eyes",
+            "description": "Glowing eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 82,
+        "fields": {
+            "playbook": 5,
+            "category": "Clothes",
+            "description": "Dirty clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 83,
+        "fields": {
+            "playbook": 5,
+            "category": "Clothes",
+            "description": "Perfect suit"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 84,
+        "fields": {
+            "playbook": 5,
+            "category": "Clothes",
+            "description": "Rumpled suit"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 85,
+        "fields": {
+            "playbook": 5,
+            "category": "Clothes",
+            "description": "Casual clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 86,
+        "fields": {
+            "playbook": 5,
+            "category": "Clothes",
+            "description": "Practical clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 87,
+        "fields": {
+            "playbook": 6,
+            "category": "Gender",
+            "description": "Male"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 88,
+        "fields": {
+            "playbook": 6,
+            "category": "Gender",
+            "description": "Female"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 89,
+        "fields": {
+            "playbook": 6,
+            "category": "Gender",
+            "description": "Non-binary"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 90,
+        "fields": {
+            "playbook": 6,
+            "category": "Face",
+            "description": "Thoughtful face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 91,
+        "fields": {
+            "playbook": 6,
+            "category": "Face",
+            "description": "Lined face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 92,
+        "fields": {
+            "playbook": 6,
+            "category": "Face",
+            "description": "Scarred face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 93,
+        "fields": {
+            "playbook": 6,
+            "category": "Face",
+            "description": "Contemplative face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 94,
+        "fields": {
+            "playbook": 6,
+            "category": "Face",
+            "description": "Stern face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 95,
+        "fields": {
+            "playbook": 6,
+            "category": "Face",
+            "description": "Avuncular face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 96,
+        "fields": {
+            "playbook": 6,
+            "category": "Face",
+            "description": "Experienced face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 97,
+        "fields": {
+            "playbook": 6,
+            "category": "Face",
+            "description": "Ancient face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 98,
+        "fields": {
+            "playbook": 6,
+            "category": "Clothes",
+            "description": "Old fashioned clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 99,
+        "fields": {
+            "playbook": 6,
+            "category": "Clothes",
+            "description": "Casual clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 100,
+        "fields": {
+            "playbook": 6,
+            "category": "Clothes",
+            "description": "Utility clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 101,
+        "fields": {
+            "playbook": 6,
+            "category": "Clothes",
+            "description": "Tailored clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 102,
+        "fields": {
+            "playbook": 6,
+            "category": "Clothes",
+            "description": "Outdoor clothes"
+        }
     }
 ]
