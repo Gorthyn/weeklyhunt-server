@@ -1,0 +1,100 @@
+[
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 1,
+        "fields": {
+            "description": "Death"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 2,
+        "fields": {
+            "description": "You can't save everyone"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 3,
+        "fields": {
+            "description": "Impossible love"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 4,
+        "fields": {
+            "description": "Failure"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 5,
+        "fields": {
+            "description": "A nemesis"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 6,
+        "fields": {
+            "description": "No normal life"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 7,
+        "fields": {
+            "description": "Loss of loved ones"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 8,
+        "fields": {
+            "description": "Treachery"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 9,
+        "fields": {
+            "description": "Doubt"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 10,
+        "fields": {
+            "description": "Sympathy with the enemy"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 11,
+        "fields": {
+            "description": "Damnation"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 12,
+        "fields": {
+            "description": "Hosts of monsters"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 13,
+        "fields": {
+            "description": "The end of days"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.doom",
+        "pk": 14,
+        "fields": {
+            "description": "The source of Evil"
+        }
+    }
+]
