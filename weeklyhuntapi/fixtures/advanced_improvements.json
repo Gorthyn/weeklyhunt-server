@@ -238,5 +238,125 @@
             "playbook": 4,
             "description": "Get back one used Luck point"
         }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 31,
+        "fields": {
+            "playbook": 5,
+            "description": "Get +1 to any rating, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 32,
+        "fields": {
+            "playbook": 5,
+            "description": "Change this hunter to a new type"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 33,
+        "fields": {
+            "playbook": 5,
+            "description": "Create a second hunter to play as well as this one"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 34,
+        "fields": {
+            "playbook": 5,
+            "description": "Mark two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 35,
+        "fields": {
+            "playbook": 5,
+            "description": "Mark another two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 36,
+        "fields": {
+            "playbook": 5,
+            "description": "Retire this hunter to safety"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 37,
+        "fields": {
+            "playbook": 5,
+            "description": "Get back one used Luck point"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 38,
+        "fields": {
+            "playbook": 5,
+            "description": "Change your mission. Select a different mission from the normal options, or (with the Keeper's agreement) a new mission of your creation."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 39,
+        "fields": {
+            "playbook": 6,
+            "description": "Get +1 to any rating, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 40,
+        "fields": {
+            "playbook": 6,
+            "description": "Get back one used Luck point"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 41,
+        "fields": {
+            "playbook": 6,
+            "description": "Change this hunter to a new type"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 42,
+        "fields": {
+            "playbook": 6,
+            "description": "Create a second hunter to play as well as this one"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 43,
+        "fields": {
+            "playbook": 6,
+            "description": "Mark two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 44,
+        "fields": {
+            "playbook": 6,
+            "description": "Mark another two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 45,
+        "fields": {
+            "playbook": 6,
+            "description": "Retire this hunter to safety"
+        }
     }
 ]
