@@ -916,5 +916,320 @@
             "category": "Clothes",
             "description": "Outdoor clothes"
         }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 103,
+        "fields": {
+            "playbook": 7,
+            "category": "Gender",
+            "description": "Male"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 104,
+        "fields": {
+            "playbook": 7,
+            "category": "Gender",
+            "description": "Female"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 105,
+        "fields": {
+            "playbook": 7,
+            "category": "Gender",
+            "description": "Non-binary"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 106,
+        "fields": {
+            "playbook": 7,
+            "category": "Body",
+            "description": "Hardened body"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 107,
+        "fields": {
+            "playbook": 7,
+            "category": "Body",
+            "description": "Tattooed body"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 108,
+        "fields": {
+            "playbook": 7,
+            "category": "Body",
+            "description": "Agile body"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 109,
+        "fields": {
+            "playbook": 7,
+            "category": "Body",
+            "description": "Strong body"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 110,
+        "fields": {
+            "playbook": 7,
+            "category": "Body",
+            "description": "Thin body"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 111,
+        "fields": {
+            "playbook": 7,
+            "category": "Body",
+            "description": "Angular body"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 112,
+        "fields": {
+            "playbook": 7,
+            "category": "Body",
+            "description": "Hunched body"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 113,
+        "fields": {
+            "playbook": 7,
+            "category": "Clothes",
+            "description": "Archaic clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 114,
+        "fields": {
+            "playbook": 7,
+            "category": "Clothes",
+            "description": "Unfashionable clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 115,
+        "fields": {
+            "playbook": 7,
+            "category": "Clothes",
+            "description": "Ceremonial clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 116,
+        "fields": {
+            "playbook": 7,
+            "category": "Clothes",
+            "description": "Mismatched clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 117,
+        "fields": {
+            "playbook": 7,
+            "category": "Clothes",
+            "description": "Formal clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 118,
+        "fields": {
+            "playbook": 8,
+            "category": "Gender",
+            "description": "Male"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 119,
+        "fields": {
+            "playbook": 8,
+            "category": "Gender",
+            "description": "Female"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 120,
+        "fields": {
+            "playbook": 8,
+            "category": "Gender",
+            "description": "Non-binary"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 121,
+        "fields": {
+            "playbook": 8,
+            "category": "Look",
+            "description": "Almost human"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 122,
+        "fields": {
+            "playbook": 8,
+            "category": "Look",
+            "description": "Half human"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 123,
+        "fields": {
+            "playbook": 8,
+            "category": "Look",
+            "description": "Monstrous"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 124,
+        "fields": {
+            "playbook": 8,
+            "category": "Aura",
+            "description": "Sinister aura"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 125,
+        "fields": {
+            "playbook": 8,
+            "category": "Aura",
+            "description": "Powerful aura"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 126,
+        "fields": {
+            "playbook": 8,
+            "category": "Aura",
+            "description": "Dark aura"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 127,
+        "fields": {
+            "playbook": 8,
+            "category": "Aura",
+            "description": "Unnerving aura"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 128,
+        "fields": {
+            "playbook": 8,
+            "category": "Aura",
+            "description": "Energetic aura"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 129,
+        "fields": {
+            "playbook": 8,
+            "category": "Aura",
+            "description": "Evil aura"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 130,
+        "fields": {
+            "playbook": 8,
+            "category": "Aura",
+            "description": "Bestial aura"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 131,
+        "fields": {
+            "playbook": 8,
+            "category": "Clothes",
+            "description": "Archaic clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 132,
+        "fields": {
+            "playbook": 8,
+            "category": "Clothes",
+            "description": "Casual clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 133,
+        "fields": {
+            "playbook": 8,
+            "category": "Clothes",
+            "description": "Ragged clothed"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 134,
+        "fields": {
+            "playbook": 8,
+            "category": "Clothes",
+            "description": "Tailored clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 135,
+        "fields": {
+            "playbook": 8,
+            "category": "Clothes",
+            "description": "Stylish clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 136,
+        "fields": {
+            "playbook": 8,
+            "category": "Clothes",
+            "description": "Street clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 137,
+        "fields": {
+            "playbook": 8,
+            "category": "Clothes",
+            "description": "Outdoor clothes"
+        }
     }
 ]
