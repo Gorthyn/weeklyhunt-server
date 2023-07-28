@@ -1193,7 +1193,7 @@
         "fields": {
             "playbook": 8,
             "category": "Clothes",
-            "description": "Ragged clothed"
+            "description": "Ragged clothes"
         }
     },
     {
@@ -1482,6 +1482,330 @@
             "playbook": 10,
             "category": "Eyes",
             "description": "Sparkling eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 166,
+        "fields": {
+            "playbook": 11,
+            "category": "Gender",
+            "description": "Male"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 167,
+        "fields": {
+            "playbook": 11,
+            "category": "Gender",
+            "description": "Female"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 168,
+        "fields": {
+            "playbook": 11,
+            "category": "Gender",
+            "description": "Non-binary"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 169,
+        "fields": {
+            "playbook": 11,
+            "category": "Look",
+            "description": "Kid"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 170,
+        "fields": {
+            "playbook": 11,
+            "category": "Look",
+            "description": "Teen"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 171,
+        "fields": {
+            "playbook": 11,
+            "category": "Look",
+            "description": "Adult"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 172,
+        "fields": {
+            "playbook": 11,
+            "category": "Look",
+            "description": "Old"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 173,
+        "fields": {
+            "playbook": 11,
+            "category": "Eyes",
+            "description": "Burning eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 174,
+        "fields": {
+            "playbook": 11,
+            "category": "Eyes",
+            "description": "Dark eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 175,
+        "fields": {
+            "playbook": 11,
+            "category": "Eyes",
+            "description": "Pained eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 176,
+        "fields": {
+            "playbook": 11,
+            "category": "Eyes",
+            "description": "Blank eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 177,
+        "fields": {
+            "playbook": 11,
+            "category": "Eyes",
+            "description": "Piercing eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 178,
+        "fields": {
+            "playbook": 11,
+            "category": "Eyes",
+            "description": "Unblinking eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 179,
+        "fields": {
+            "playbook": 11,
+            "category": "Eyes",
+            "description": "Shadowed eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 180,
+        "fields": {
+            "playbook": 11,
+            "category": "Eyes",
+            "description": "Creepy eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 181,
+        "fields": {
+            "playbook": 11,
+            "category": "Clothes",
+            "description": "Ratty clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 182,
+        "fields": {
+            "playbook": 11,
+            "category": "Clothes",
+            "description": "Casual clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 183,
+        "fields": {
+            "playbook": 11,
+            "category": "Clothes",
+            "description": "Goth clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 184,
+        "fields": {
+            "playbook": 11,
+            "category": "Clothes",
+            "description": "Neat clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 185,
+        "fields": {
+            "playbook": 11,
+            "category": "Clothes",
+            "description": "Nerdy clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 186,
+        "fields": {
+            "playbook": 12,
+            "category": "Gender",
+            "description": "Male"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 187,
+        "fields": {
+            "playbook": 12,
+            "category": "Gender",
+            "description": "Female"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 188,
+        "fields": {
+            "playbook": 12,
+            "category": "Gender",
+            "description": "Non-binary"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 189,
+        "fields": {
+            "playbook": 12,
+            "category": "Eyes",
+            "description": "Sad eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 190,
+        "fields": {
+            "playbook": 12,
+            "category": "Eyes",
+            "description": "Icy eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 191,
+        "fields": {
+            "playbook": 12,
+            "category": "Eyes",
+            "description": "Angry eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 192,
+        "fields": {
+            "playbook": 12,
+            "category": "Eyes",
+            "description": "Untouchable eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 193,
+        "fields": {
+            "playbook": 12,
+            "category": "Eyes",
+            "description": "Emotionless eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 194,
+        "fields": {
+            "playbook": 12,
+            "category": "Eyes",
+            "description": "Hurt eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 195,
+        "fields": {
+            "playbook": 12,
+            "category": "Eyes",
+            "description": "Harrowed eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 196,
+        "fields": {
+            "playbook": 12,
+            "category": "Clothes",
+            "description": "Non-descript clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 197,
+        "fields": {
+            "playbook": 12,
+            "category": "Clothes",
+            "description": "Ragged clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 198,
+        "fields": {
+            "playbook": 12,
+            "category": "Clothes",
+            "description": "Casual clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 199,
+        "fields": {
+            "playbook": 12,
+            "category": "Clothes",
+            "description": "Hunting gear"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 200,
+        "fields": {
+            "playbook": 12,
+            "category": "Clothes",
+            "description": "Army surplus gear"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 201,
+        "fields": {
+            "playbook": 12,
+            "category": "Clothes",
+            "description": "Old clothes"
         }
     }
 ]
