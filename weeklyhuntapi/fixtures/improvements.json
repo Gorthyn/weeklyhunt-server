@@ -798,5 +798,165 @@
             "playbook": 10,
             "description": "Take another Combat Magic pick"
         }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 101,
+        "fields": {
+            "playbook": 11,
+            "description": "Get +1 Weird, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 102,
+        "fields": {
+            "playbook": 11,
+            "description": "Get +1 Charm, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 103,
+        "fields": {
+            "playbook": 11,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 104,
+        "fields": {
+            "playbook": 11,
+            "description": "Get +1 Sharp, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 105,
+        "fields": {
+            "playbook": 11,
+            "description": "Take another Spooky move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 106,
+        "fields": {
+            "playbook": 11,
+            "description": "Take another Spooky move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 107,
+        "fields": {
+            "playbook": 11,
+            "description": "Change some, or all, of your Dark Side tags"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 108,
+        "fields": {
+            "playbook": 11,
+            "description": "Get a mystical library, like the Expert's haven option"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 109,
+        "fields": {
+            "playbook": 11,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 110,
+        "fields": {
+            "playbook": 11,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 111,
+        "fields": {
+            "playbook": 12,
+            "description": "Get +1 Tough, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 112,
+        "fields": {
+            "playbook": 12,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 113,
+        "fields": {
+            "playbook": 12,
+            "description": "Get +1 Sharp, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 114,
+        "fields": {
+            "playbook": 12,
+            "description": "Get +1 Weird, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 115,
+        "fields": {
+            "playbook": 12,
+            "description": "Take another Wronged move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 116,
+        "fields": {
+            "playbook": 12,
+            "description": "Take another Wronged move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 117,
+        "fields": {
+            "playbook": 12,
+            "description": "Get a haven, like the Expert has, with two options"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 118,
+        "fields": {
+            "playbook": 12,
+            "description": "Add one more option to your haven"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 119,
+        "fields": {
+            "playbook": 12,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 120,
+        "fields": {
+            "playbook": 12,
+            "description": "Take a move from another playbook"
+        }
     }
 ]
