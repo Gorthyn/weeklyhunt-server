@@ -358,5 +358,141 @@
             "playbook": 6,
             "description": "Retire this hunter to safety"
         }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 46,
+        "fields": {
+            "playbook": 7,
+            "description": "Get +1 to any rating, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 47,
+        "fields": {
+            "playbook": 7,
+            "description": "Change this hunter to a new type"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 48,
+        "fields": {
+            "playbook": 7,
+            "description": "Create a second hunter to play as well as this one"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 49,
+        "fields": {
+            "playbook": 7,
+            "description": "Mark two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 50,
+        "fields": {
+            "playbook": 7,
+            "description": "Mark another two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 51,
+        "fields": {
+            "playbook": 7,
+            "description": "Retire this hunter to safety"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 52,
+        "fields": {
+            "playbook": 7,
+            "description": "Become the leader, or effective leader, of the whole Sect"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 53,
+        "fields": {
+            "playbook": 7,
+            "description": "Get back one used Luck point"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 54,
+        "fields": {
+            "playbook": 8,
+            "description": "Get +1 to any rating, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 55,
+        "fields": {
+            "playbook": 8,
+            "description": "Change this hunter to a new type"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 56,
+        "fields": {
+            "playbook": 8,
+            "description": "Create a second hunter to play as well as this one"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 57,
+        "fields": {
+            "playbook": 8,
+            "description": "Mark two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 58,
+        "fields": {
+            "playbook": 8,
+            "description": "Mark another two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 59,
+        "fields": {
+            "playbook": 8,
+            "description": "Retire this hunter to safety"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 60,
+        "fields": {
+            "playbook": 8,
+            "description": "Free yourself from the curse of your kind. Your curse no longer applies, but you lose 1 Weird."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 61,
+        "fields": {
+            "playbook": 8,
+            "description": "You turn evil (again). Retire this character, they become one of the Keeper's threats."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 62,
+        "fields": {
+            "playbook": 8,
+            "description": "Get back one used Luck point"
+        }
     }
 ]
