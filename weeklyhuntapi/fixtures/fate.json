@@ -1,0 +1,51 @@
+[
+    {
+        "model": "weeklyhuntapi.fate",
+        "pk": 1,
+        "fields": {
+            "description": "Nightmares and Visions"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.fate",
+        "pk": 2,
+        "fields": {
+            "description": "Some weirdo told you"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.fate",
+        "pk": 3,
+        "fields": {
+            "description": "An ancient cult found you"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.fate",
+        "pk": 4,
+        "fields": {
+            "description": "Sought out by your nemesis"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.fate",
+        "pk": 5,
+        "fields": {
+            "description": "Attacked by monsters"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.fate",
+        "pk": 6,
+        "fields": {
+            "description": "Trained from birth"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.fate",
+        "pk": 7,
+        "fields": {
+            "description": "You found the prophecy"
+        }
+    }
+]
