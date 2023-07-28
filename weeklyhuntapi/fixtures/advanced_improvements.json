@@ -494,5 +494,141 @@
             "playbook": 8,
             "description": "Get back one used Luck point"
         }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 63,
+        "fields": {
+            "playbook": 9,
+            "description": "Get +1 to any rating, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 64,
+        "fields": {
+            "playbook": 9,
+            "description": "Change this hunter to a new type"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 65,
+        "fields": {
+            "playbook": 9,
+            "description": "Create a second hunter to play as well as this one"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 66,
+        "fields": {
+            "playbook": 9,
+            "description": "Mark two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 67,
+        "fields": {
+            "playbook": 9,
+            "description": "Mark another two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 68,
+        "fields": {
+            "playbook": 9,
+            "description": "Retire this hunter to safety"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 69,
+        "fields": {
+            "playbook": 9,
+            "description": "Get some or all of the other players' hunters hired by your agency. The get the Deal with the Agency move, as well as salary and benefits."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 70,
+        "fields": {
+            "playbook": 9,
+            "description": "Get back one used Luck point"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 71,
+        "fields": {
+            "playbook": 10,
+            "description": "Get +1 to any rating, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 72,
+        "fields": {
+            "playbook": 10,
+            "description": "Change this hunter to a new type"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 73,
+        "fields": {
+            "playbook": 10,
+            "description": "Create a second hunter to play as well as this one"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 74,
+        "fields": {
+            "playbook": 10,
+            "description": "Mark two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 75,
+        "fields": {
+            "playbook": 10,
+            "description": "Mark another two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 76,
+        "fields": {
+            "playbook": 10,
+            "description": "Retire this hunter to safety"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 77,
+        "fields": {
+            "playbook": 10,
+            "description": "Get back one used Luck point"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 78,
+        "fields": {
+            "playbook": 10,
+            "description": "Take another Combat Magic pick"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 79,
+        "fields": {
+            "playbook": 10,
+            "description": "You may cross off another option from your Tools and Techniques"
+        }
     }
 ]
