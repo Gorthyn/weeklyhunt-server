@@ -158,5 +158,165 @@
             "playbook": 2,
             "description": "Take a move from another playbook"
         }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 21,
+        "fields": {
+            "playbook": 3,
+            "description": "Get +1 Charm, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 22,
+        "fields": {
+            "playbook": 3,
+            "description": "Get +1 Cool, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 23,
+        "fields": {
+            "playbook": 3,
+            "description": "Get +1 Sharp, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 24,
+        "fields": {
+            "playbook": 3,
+            "description": "Get +1 Tough, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 25,
+        "fields": {
+            "playbook": 3,
+            "description": "Get +1 Weird, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 26,
+        "fields": {
+            "playbook": 3,
+            "description": "Take another Chosen move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 27,
+        "fields": {
+            "playbook": 3,
+            "description": "Take another Chosen move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 28,
+        "fields": {
+            "playbook": 3,
+            "description": "Gain an ally"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 29,
+        "fields": {
+            "playbook": 3,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 30,
+        "fields": {
+            "playbook": 3,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 31,
+        "fields": {
+            "playbook": 4,
+            "description": "Get +1 Sharp, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 32,
+        "fields": {
+            "playbook": 4,
+            "description": "Get +1 Tough, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 33,
+        "fields": {
+            "playbook": 4,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 34,
+        "fields": {
+            "playbook": 4,
+            "description": "Get +1 Charm, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 35,
+        "fields": {
+            "playbook": 4,
+            "description": "Take another Crooked move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 36,
+        "fields": {
+            "playbook": 4,
+            "description": "Take another Crooked move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 37,
+        "fields": {
+            "playbook": 4,
+            "description": "Gain an ally: one of your old crew"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 38,
+        "fields": {
+            "playbook": 4,
+            "description": "Recover a stash of money from the old days, enough to live without care... for a year or two"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 39,
+        "fields": {
+            "playbook": 4,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 40,
+        "fields": {
+            "playbook": 4,
+            "description": "Take a move from another playbook"
+        }
     }
 ]
