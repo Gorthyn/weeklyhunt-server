@@ -1,0 +1,86 @@
+[
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 1,
+        "fields": {
+            "description": "Sacrifice"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 2,
+        "fields": {
+            "description": "You are the Champion"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 3,
+        "fields": {
+            "description": "Visions"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 4,
+        "fields": {
+            "description": "Secret training"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 5,
+        "fields": {
+            "description": "Magical powers"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 6,
+        "fields": {
+            "description": "Mystical inheritance"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 7,
+        "fields": {
+            "description": "A normal life"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 8,
+        "fields": {
+            "description": "True love"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 9,
+        "fields": {
+            "description": "You can save the world"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 10,
+        "fields": {
+            "description": "Hidden allies"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 11,
+        "fields": {
+            "description": "The end of monsters"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heroic",
+        "pk": 12,
+        "fields": {
+            "description": "Divine help"
+        }
+    }
+]
