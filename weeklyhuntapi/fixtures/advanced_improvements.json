@@ -630,5 +630,141 @@
             "playbook": 10,
             "description": "You may cross off another option from your Tools and Techniques"
         }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 80,
+        "fields": {
+            "playbook": 11,
+            "description": "Get +1 to any rating, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 81,
+        "fields": {
+            "playbook": 11,
+            "description": "Change this hunter to a new type"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 82,
+        "fields": {
+            "playbook": 11,
+            "description": "Create a second hunter to play as well as this one"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 83,
+        "fields": {
+            "playbook": 11,
+            "description": "Mark two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 84,
+        "fields": {
+            "playbook": 11,
+            "description": "Mark another two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 85,
+        "fields": {
+            "playbook": 11,
+            "description": "Retire this hunter to safety"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 86,
+        "fields": {
+            "playbook": 11,
+            "description": "You discover how to use your powers at a lower price. Delete one dark side tag permanently."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 87,
+        "fields": {
+            "playbook": 11,
+            "description": "Get back one used Luck point"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 88,
+        "fields": {
+            "playbook": 12,
+            "description": "Get +1 to any rating, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 89,
+        "fields": {
+            "playbook": 12,
+            "description": "Change this hunter to a new type"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 90,
+        "fields": {
+            "playbook": 12,
+            "description": "Create a second hunter to play as well as this one"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 91,
+        "fields": {
+            "playbook": 12,
+            "description": "Mark two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 92,
+        "fields": {
+            "playbook": 12,
+            "description": "Mark another two of the basic moves as advanced"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 93,
+        "fields": {
+            "playbook": 12,
+            "description": "Retire this hunter to safety"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 94,
+        "fields": {
+            "playbook": 12,
+            "description": "You track down the specific monster(s) responsible for your loss. The Keeper must make the next mystery about them."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 95,
+        "fields": {
+            "playbook": 12,
+            "description": "Change the target of your vengeful rage. Pick a new monster breed: I Know My Prey now applies to them instead."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.advanced_improvements",
+        "pk": 96,
+        "fields": {
+            "playbook": 12,
+            "description": "Get back one used Luck point"
+        }
     }
 ]
