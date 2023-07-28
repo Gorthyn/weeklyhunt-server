@@ -4,7 +4,159 @@
         "pk": 1,
         "fields": {
             "playbook": 1,
-            "description": "+1 Tough (max +3)"
+            "description": "Get +1 Sharp, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 2,
+        "fields": {
+            "playbook": 1,
+            "description": "Get +1 Charm, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 3,
+        "fields": {
+            "playbook": 1,
+            "description": "Get +1 Cool, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 4,
+        "fields": {
+            "playbook": 1,
+            "description": "Get +1 Weird, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 5,
+        "fields": {
+            "playbook": 1,
+            "description": "Take another Flake move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 6,
+        "fields": {
+            "playbook": 1,
+            "description": "Take another Flake move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 7,
+        "fields": {
+            "playbook": 1,
+            "description": "Get a haven, like the Expert has, with two options"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 8,
+        "fields": {
+            "playbook": 1,
+            "description": "Get another option for your haven"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 9,
+        "fields": {
+            "playbook": 1,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 10,
+        "fields": {
+            "playbook": 1,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 11,
+        "fields": {
+            "playbook": 2,
+            "description": "Get +1 Charm, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 12,
+        "fields": {
+            "playbook": 2,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 13,
+        "fields": {
+            "playbook": 2,
+            "description": "Get +1 Sharp, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 14,
+        "fields": {
+            "playbook": 2,
+            "description": "Get +1 Tough, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 15,
+        "fields": {
+            "playbook": 2,
+            "description": "Take another Mundane move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 16,
+        "fields": {
+            "playbook": 2,
+            "description": "Take another Mundane move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 17,
+        "fields": {
+            "playbook": 2,
+            "description": "Get back one used Luck point"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 18,
+        "fields": {
+            "playbook": 2,
+            "description": "Get back one used Luck point"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 19,
+        "fields": {
+            "playbook": 2,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 20,
+        "fields": {
+            "playbook": 2,
+            "description": "Take a move from another playbook"
         }
     }
 ]
