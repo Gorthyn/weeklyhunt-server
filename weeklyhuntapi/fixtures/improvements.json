@@ -478,5 +478,165 @@
             "playbook": 6,
             "description": "Take a move from another playbook"
         }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 61,
+        "fields": {
+            "playbook": 7,
+            "description": "Get +1 Weird, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 62,
+        "fields": {
+            "playbook": 7,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 63,
+        "fields": {
+            "playbook": 7,
+            "description": "Get +1 Sharp, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 64,
+        "fields": {
+            "playbook": 7,
+            "description": "Get +1 Tough, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 65,
+        "fields": {
+            "playbook": 7,
+            "description": "Take another Initiate move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 66,
+        "fields": {
+            "playbook": 7,
+            "description": "Take another Initiate move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 67,
+        "fields": {
+            "playbook": 7,
+            "description": "Get command of your chapter of the Sect"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 68,
+        "fields": {
+            "playbook": 7,
+            "description": "Get a Sect team under your command"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 69,
+        "fields": {
+            "playbook": 7,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 70,
+        "fields": {
+            "playbook": 7,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 71,
+        "fields": {
+            "playbook": 8,
+            "description": "Get +1 Charm, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 72,
+        "fields": {
+            "playbook": 8,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 73,
+        "fields": {
+            "playbook": 8,
+            "description": "Get +1 Sharp, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 74,
+        "fields": {
+            "playbook": 8,
+            "description": "Get +1 Tough, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 75,
+        "fields": {
+            "playbook": 8,
+            "description": "Take another Monstrous move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 76,
+        "fields": {
+            "playbook": 8,
+            "description": "Take another Monstrous move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 77,
+        "fields": {
+            "playbook": 8,
+            "description": "Get a haven, like the Expert has, with two options"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 78,
+        "fields": {
+            "playbook": 8,
+            "description": "Take a natural attacks pick"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 79,
+        "fields": {
+            "playbook": 8,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 80,
+        "fields": {
+            "playbook": 8,
+            "description": "Take a move from another playbook"
+        }
     }
 ]
