@@ -318,5 +318,165 @@
             "playbook": 4,
             "description": "Take a move from another playbook"
         }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 41,
+        "fields": {
+            "playbook": 5,
+            "description": "Get +1 Tough, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 42,
+        "fields": {
+            "playbook": 5,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 43,
+        "fields": {
+            "playbook": 5,
+            "description": "Get +1 Charm, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 44,
+        "fields": {
+            "playbook": 5,
+            "description": "Get +1 Sharp, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 45,
+        "fields": {
+            "playbook": 5,
+            "description": "Get +1 Weird, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 46,
+        "fields": {
+            "playbook": 5,
+            "description": "Take another Divine move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 47,
+        "fields": {
+            "playbook": 5,
+            "description": "Take another Divine move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 48,
+        "fields": {
+            "playbook": 5,
+            "description": "Gain a lesser divine being as an ally, sent from above to help with your mission"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 49,
+        "fields": {
+            "playbook": 5,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 50,
+        "fields": {
+            "playbook": 5,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 51,
+        "fields": {
+            "playbook": 6,
+            "description": "Get +1 Sharp, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 52,
+        "fields": {
+            "playbook": 6,
+            "description": "Get +1 Charm, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 53,
+        "fields": {
+            "playbook": 6,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 54,
+        "fields": {
+            "playbook": 6,
+            "description": "Get +1 Weird, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 55,
+        "fields": {
+            "playbook": 6,
+            "description": "Take another Expert move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 56,
+        "fields": {
+            "playbook": 6,
+            "description": "Take another Expert move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 57,
+        "fields": {
+            "playbook": 6,
+            "description": "Add an option to your haven"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 58,
+        "fields": {
+            "playbook": 6,
+            "description": "Add an option to your haven"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 59,
+        "fields": {
+            "playbook": 6,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 60,
+        "fields": {
+            "playbook": 6,
+            "description": "Take a move from another playbook"
+        }
     }
 ]
