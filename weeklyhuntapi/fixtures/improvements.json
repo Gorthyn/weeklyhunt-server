@@ -638,5 +638,165 @@
             "playbook": 8,
             "description": "Take a move from another playbook"
         }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 81,
+        "fields": {
+            "playbook": 9,
+            "description": "Get +1 Cool, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 82,
+        "fields": {
+            "playbook": 9,
+            "description": "Get +1 Charm, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 83,
+        "fields": {
+            "playbook": 9,
+            "description": "Get +1 Sharp, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 84,
+        "fields": {
+            "playbook": 9,
+            "description": "Get +1 Tough, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 85,
+        "fields": {
+            "playbook": 9,
+            "description": "Take another Professional move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 86,
+        "fields": {
+            "playbook": 9,
+            "description": "Take another Professional move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 87,
+        "fields": {
+            "playbook": 9,
+            "description": "Add a new resource tag for your Agency OR change a red tape tag"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 88,
+        "fields": {
+            "playbook": 9,
+            "description": "Get command of an Agency team of monster hunters"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 89,
+        "fields": {
+            "playbook": 9,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 90,
+        "fields": {
+            "playbook": 9,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 91,
+        "fields": {
+            "playbook": 10,
+            "description": "Get +1 Weird, max +3"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 92,
+        "fields": {
+            "playbook": 10,
+            "description": "Get +1 Cool, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 93,
+        "fields": {
+            "playbook": 10,
+            "description": "Get +1 Sharp, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 94,
+        "fields": {
+            "playbook": 10,
+            "description": "Get +1 Tough, max +2"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 95,
+        "fields": {
+            "playbook": 10,
+            "description": "Take another Spell-Slinger move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 96,
+        "fields": {
+            "playbook": 10,
+            "description": "Take another Spell-Slinger move"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 97,
+        "fields": {
+            "playbook": 10,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 98,
+        "fields": {
+            "playbook": 10,
+            "description": "Take a move from another playbook"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 99,
+        "fields": {
+            "playbook": 10,
+            "description": "Take another Combat Magic pick"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.improvements",
+        "pk": 100,
+        "fields": {
+            "playbook": 10,
+            "description": "Take another Combat Magic pick"
+        }
     }
 ]
