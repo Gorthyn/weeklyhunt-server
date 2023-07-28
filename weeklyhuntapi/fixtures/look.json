@@ -322,5 +322,293 @@
             "category": "Clothes",
             "description": "Nerdy clothes"
         }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 37,
+        "fields": {
+            "playbook": 3,
+            "category": "Gender",
+            "description": "Male"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 38,
+        "fields": {
+            "playbook": 3,
+            "category": "Gender",
+            "description": "Female"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 39,
+        "fields": {
+            "playbook": 3,
+            "category": "Gender",
+            "description": "Non-binary"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 40,
+        "fields": {
+            "playbook": 3,
+            "category": "Look",
+            "description": "Kid"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 41,
+        "fields": {
+            "playbook": 3,
+            "category": "Look",
+            "description": "Teen"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 42,
+        "fields": {
+            "playbook": 3,
+            "category": "Look",
+            "description": "Young"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 43,
+        "fields": {
+            "playbook": 3,
+            "category": "Look",
+            "description": "Burnt-out"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 44,
+        "fields": {
+            "playbook": 3,
+            "category": "Face",
+            "description": "Fresh face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 45,
+        "fields": {
+            "playbook": 3,
+            "category": "Face",
+            "description": "Haggard face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 46,
+        "fields": {
+            "playbook": 3,
+            "category": "Face",
+            "description": "Young face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 47,
+        "fields": {
+            "playbook": 3,
+            "category": "Face",
+            "description": "Haunted face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 48,
+        "fields": {
+            "playbook": 3,
+            "category": "Face",
+            "description": "Hopeful face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 49,
+        "fields": {
+            "playbook": 3,
+            "category": "Face",
+            "description": "Controlled face"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 50,
+        "fields": {
+            "playbook": 3,
+            "category": "Clothes",
+            "description": "Preppy clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 51,
+        "fields": {
+            "playbook": 3,
+            "category": "Clothes",
+            "description": "Casual wear"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 52,
+        "fields": {
+            "playbook": 3,
+            "category": "Clothes",
+            "description": "Urban wear"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 53,
+        "fields": {
+            "playbook": 3,
+            "category": "Clothes",
+            "description": "Normal clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 54,
+        "fields": {
+            "playbook": 3,
+            "category": "Clothes",
+            "description": "Neat clothes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 55,
+        "fields": {
+            "playbook": 3,
+            "category": "Clothes",
+            "description": "Street wear"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 56,
+        "fields": {
+            "playbook": 4,
+            "category": "Gender",
+            "description": "Male"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 57,
+        "fields": {
+            "playbook": 4,
+            "category": "Gender",
+            "description": "Female"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 58,
+        "fields": {
+            "playbook": 4,
+            "category": "Gender",
+            "description": "Non-binary"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 59,
+        "fields": {
+            "playbook": 4,
+            "category": "Eyes",
+            "description": "Hard eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 60,
+        "fields": {
+            "playbook": 4,
+            "category": "Eyes",
+            "description": "Friendly eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 61,
+        "fields": {
+            "playbook": 4,
+            "category": "Eyes",
+            "description": "Watchful eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 62,
+        "fields": {
+            "playbook": 4,
+            "category": "Eyes",
+            "description": "Smiling eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 63,
+        "fields": {
+            "playbook": 4,
+            "category": "Eyes",
+            "description": "Calculating eyes"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 64,
+        "fields": {
+            "playbook": 4,
+            "category": "Clothes",
+            "description": "Street wear"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 65,
+        "fields": {
+            "playbook": 4,
+            "category": "Clothes",
+            "description": "Tailored suit"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 66,
+        "fields": {
+            "playbook": 4,
+            "category": "Clothes",
+            "description": "Cheap suit"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 67,
+        "fields": {
+            "playbook": 4,
+            "category": "Clothes",
+            "description": "Tracksuit"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.look",
+        "pk": 68,
+        "fields": {
+            "playbook": 4,
+            "category": "Clothes",
+            "description": "Non-descript clothes"
+        }
     }
 ]
