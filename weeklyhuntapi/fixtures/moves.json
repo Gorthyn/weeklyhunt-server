@@ -208,5 +208,225 @@
             "name": "Resilience",
             "description": "You heal faster than normal people. Any time your harm gets healed, heal an extra point. Additionally, your wounds count as 1-harm less for the purpose of the Keeper’s harm moves."
         }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 22,
+        "fields": {
+            "playbook": 4,
+            "isRequired": false,
+            "name": "Artifact",
+            "description": "You ‘found’ a magical artifact with handy powers, and kept it. Pick one: Protective amulet (1-armour magic recharge), Lucky charm (may be used as a Luck point, once only), Grimoire (studying the book gives +1 forward to use magic), Skeleton key (opens any magically sealed lock), Imp stone (A weak demon is bound to serve the holder. The imp must be summoned with the use magic move)."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 23,
+        "fields": {
+            "playbook": 4,
+            "isRequired": false,
+            "name": "Crew",
+            "description": "You have a regular crew, a team of three or four people who will help you out with pretty much anything. They count as a team (see page 119)."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 24,
+        "fields": {
+            "playbook": 4,
+            "isRequired": false,
+            "name": "Deal with the Devil",
+            "description": "You sold your soul to the Devil. Pick one or two things you got out of the deal: wealth, fame, youth, sensual gratification, skill (add +1 to two ratings). Payment is due either when you die, in six months (if you picked two things) or otherwise in a year."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 25,
+        "fields": {
+            "playbook": 4,
+            "isRequired": false,
+            "name": "Friends on the Force",
+            "description": "You know a few cops who can be persuaded to look the other way, or do you a favour, for certain considerations. You can act under pressure to get in touch with them when you need to divert any law enforcement attention. There will be a cost, although maybe not right now."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 26,
+        "fields": {
+            "playbook": 4,
+            "isRequired": false,
+            "name": "Made",
+            "description": "You’re “made” in a gang. Name the gang and describe how their operations tie into your background. You can call on gang members to help you out, but they’ll expect to be paid. Your bosses will have requests for you now and again, but you’ll be paid. Minor trouble will be overlooked, but you better not screw over any other made gangsters."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 27,
+        "fields": {
+            "playbook": 4,
+            "isRequired": false,
+            "name": "Driver",
+            "description": "You have +1 ongoing while driving, plus you can hotwire anything (the older it is, the fewer tools you need to do it). You also own two handy, wide-ly-available vehicles (perhaps a sportscar and a van)."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 28,
+        "fields": {
+            "playbook": 4,
+            "isRequired": false,
+            "name": "Home Ground",
+            "description": "Your crew made a point of keeping the locals happy - keeping them safe, ensuring things always went down okay. When you’re back in your old neighbourhood, you can always find people who will hide you or help you with a minor favour, no questions asked."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 29,
+        "fields": {
+            "playbook": 4,
+            "isRequired": false,
+            "name": "Notorious",
+            "description": "You have a reputation from your criminal past. When you reveal who you are, your terrifying reputation counts as a reason for people to do what you ask, for the manipulate someone move. Revealing your identity to someone can create other problems later, of course."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 30,
+        "fields": {
+            "playbook": 5,
+            "isRequired": false,
+            "name": "Boss from Beyond",
+            "description": "At the beginning of each mystery, roll +Weird. On a 10+, your Superiors ask you to do something simple. On a 7-9, they ask you to do something complicated or difficult. In either case, you get to ask them one of the questions from the investigate a mystery move right now. On a miss, you are required to do something terrible. If you do not accomplish what they’ve ordered, you cannot use this move again until you have made up for your failure."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 31,
+        "fields": {
+            "playbook": 5,
+            "isRequired": false,
+            "name": "Angel Wings",
+            "description": "You can go instantly to anywhere you’ve visited before, or to a person you know well. When you carry one or two people with you, roll +Weird. On a 10+ you all go where you wanted. On a 7-9, you don’t quite manage it. Either you are all separated, or you all appear in the wrong place."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 32,
+        "fields": {
+            "playbook": 5,
+            "isRequired": false,
+            "name": "What I Need, When I Need It",
+            "description": "You may store any small object you own, putting it into a magical space nobody can get to. You may retrieve anything you stored at any time; it appears in your hand."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 33,
+        "fields": {
+            "playbook": 5,
+            "isRequired": false,
+            "name": "Smite",
+            "description": "Your body and divine weapon always count as a weakness against the monsters you fight. Your unarmed attacks are 2-harm intimate hand messy."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 34,
+        "fields": {
+            "playbook": 5,
+            "isRequired": false,
+            "name": "Soothe",
+            "description": "When you talk to someone for a few seconds in a quiet voice, you can calm them down, blocking any panic, anger, or other negative emotions they have. This works even if the thing that freaked them out is still present, as long as your voice can be heard."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 35,
+        "fields": {
+            "playbook": 5,
+            "isRequired": false,
+            "name": "Lay On Hands",
+            "description": "Your touch can heal injury and disease. When you lay your hands on someone hurt, roll +Cool. On a 10+, heal 2 harm or an illness, plus they’re stabilized. On a 7-9, you can heal the harm or illness as on a 10+, but you take it into your-self. On a miss, your aura causes them extra harm."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 36,
+        "fields": {
+            "playbook": 5,
+            "isRequired": false,
+            "name": "Cast Out Evil",
+            "description": "You may banish an unnatural creature from your presence. Roll +Tough. On a 10+ it is banished. On a 7-9 it takes a little while for the banishing to take effect—the creature has time to make one or two actions. Either way, the banished creature is unharmed, and you have no control over where it goes. This move may be used on unnatural hunters (e.g. the Monstrous). On a miss, something is keeping it here. That’s bad."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 37,
+        "fields": {
+            "playbook": 6,
+            "isRequired": false,
+            "name": "I’ve Read About This Sort Of Thing",
+            "description": "Roll +Sharp instead of +Cool when you act under pressure."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 38,
+        "fields": {
+            "playbook": 6,
+            "isRequired": false,
+            "name": "Often Right",
+            "description": "When a hunter comes to you for advice about a problem, give them your honest opinion and advice. If they take your advice, they get +1 ongoing while following your advice, and you mark experience."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 39,
+        "fields": {
+            "playbook": 6,
+            "isRequired": false,
+            "name": "Preparedness",
+            "description": "When you need something unusual or rare, roll +Sharp. On a 10+, you have it here right now. On a 7-9 you have it, but not here: it will take some time to get it. On a miss, you know where it is, but it’s somewhere real bad."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 40,
+        "fields": {
+            "playbook": 6,
+            "isRequired": false,
+            "name": "It Wasn’t As Bad As It Looked",
+            "description": "Once per mystery, you may attempt to keep going despite your injuries. Roll +Cool. On a 10+, heal 2 harm and stabilize your wounds. On a 7-9 you may either stabilize or heal 1 harm. On a miss, it was worse than it looked: the Keeper may inflict a harm move on you, or make your wounds unstable."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 41,
+        "fields": {
+            "playbook": 6,
+            "isRequired": false,
+            "name": "Precise Strike",
+            "description": "When you inflict harm on a monster, you can aim for a weak spot. Roll +Tough. On a 10+ you inflict +2 harm. On a 7-9 you inflict +1 harm. On a miss, you leave yourself open to the monster."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 42,
+        "fields": {
+            "playbook": 6,
+            "isRequired": false,
+            "name": "The Woman (or Man) With The Plan",
+            "description": "At the beginning of each mystery, roll +Sharp. On a 10+ hold 2, on a 7-9 hold 1. Spend the hold to be where you need to be, prepared and ready. On a miss, the Keeper holds 1 they can spend to put you in the worst place, unprepared and unready."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 43,
+        "fields": {
+            "playbook": 6,
+            "isRequired": false,
+            "name": "Dark Past",
+            "description": "If you trawl through your memories for something relevant to the case at hand, roll +Weird. On a 10+ ask the Keeper two questions from the list below. On a 7-9 ask one. On a miss, you can ask a question anyway but that will mean you were personally complicit in creating the situation you are now dealing with. The questions are: When I dealt with this creature (or one of its kind), what did I learn? What black magic do I know that could help here? Do I know anyone who might be behind this? Who do I know who can help us right now?"
+        }
     }
 ]
