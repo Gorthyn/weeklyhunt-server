@@ -73,6 +73,16 @@
         "model": "weeklyhuntapi.move",
         "pk": 8,
         "fields": {
+            "playbook": 1,
+            "isRequired": false,
+            "name": "Connect the Dots",
+            "description": "At the beginning of each mystery, if you look for the wider patterns that current events might be part of, roll +Sharp. On a 10+ hold 3, and on a 7-9 hold 1. Spend your hold during the mystery to ask the Keeper any one of the following questions: Is this person connected to current events more than they are saying? When and where will the next critical event occur? What does the monster want from this person? Is this connected to previous mysteries we have investigated? How does this mystery connect to the bigger picture?"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 9,
+        "fields": {
             "playbook": 2,
             "isRequired": false,
             "name": "Always The Victim",
@@ -81,7 +91,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 9,
+        "pk": 10,
         "fields": {
             "playbook": 2,
             "isRequired": false,
@@ -91,7 +101,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 10,
+        "pk": 11,
         "fields": {
             "playbook": 2,
             "isRequired": false,
@@ -101,7 +111,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 11,
+        "pk": 12,
         "fields": {
             "playbook": 2,
             "isRequired": false,
@@ -111,7 +121,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 12,
+        "pk": 13,
         "fields": {
             "playbook": 2,
             "isRequired": false,
@@ -121,7 +131,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 13,
+        "pk": 14,
         "fields": {
             "playbook": 2,
             "isRequired": false,
@@ -131,7 +141,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 14,
+        "pk": 15,
         "fields": {
             "playbook": 2,
             "isRequired": false,
@@ -141,7 +151,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 15,
+        "pk": 16,
         "fields": {
             "playbook": 3,
             "isRequired": true,
@@ -151,7 +161,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 16,
+        "pk": 17,
         "fields": {
             "playbook": 3,
             "isRequired": true,
@@ -161,7 +171,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 17,
+        "pk": 18,
         "fields": {
             "playbook": 3,
             "isRequired": false,
@@ -171,7 +181,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 18,
+        "pk": 19,
         "fields": {
             "playbook": 3,
             "isRequired": false,
@@ -181,7 +191,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 19,
+        "pk": 20,
         "fields": {
             "playbook": 3,
             "isRequired": false,
@@ -191,7 +201,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 20,
+        "pk": 21,
         "fields": {
             "playbook": 3,
             "isRequired": false,
@@ -201,7 +211,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 21,
+        "pk": 22,
         "fields": {
             "playbook": 3,
             "isRequired": false,
@@ -211,7 +221,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 22,
+        "pk": 23,
         "fields": {
             "playbook": 4,
             "isRequired": false,
@@ -221,7 +231,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 23,
+        "pk": 24,
         "fields": {
             "playbook": 4,
             "isRequired": false,
@@ -231,7 +241,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 24,
+        "pk": 25,
         "fields": {
             "playbook": 4,
             "isRequired": false,
@@ -241,7 +251,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 25,
+        "pk": 26,
         "fields": {
             "playbook": 4,
             "isRequired": false,
@@ -251,7 +261,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 26,
+        "pk": 27,
         "fields": {
             "playbook": 4,
             "isRequired": false,
@@ -261,7 +271,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 27,
+        "pk": 28,
         "fields": {
             "playbook": 4,
             "isRequired": false,
@@ -271,7 +281,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 28,
+        "pk": 29,
         "fields": {
             "playbook": 4,
             "isRequired": false,
@@ -281,7 +291,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 29,
+        "pk": 30,
         "fields": {
             "playbook": 4,
             "isRequired": false,
@@ -291,7 +301,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 30,
+        "pk": 31,
         "fields": {
             "playbook": 5,
             "isRequired": false,
@@ -301,7 +311,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 31,
+        "pk": 32,
         "fields": {
             "playbook": 5,
             "isRequired": false,
@@ -311,7 +321,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 32,
+        "pk": 33,
         "fields": {
             "playbook": 5,
             "isRequired": false,
@@ -321,7 +331,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 33,
+        "pk": 34,
         "fields": {
             "playbook": 5,
             "isRequired": false,
@@ -331,7 +341,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 34,
+        "pk": 35,
         "fields": {
             "playbook": 5,
             "isRequired": false,
@@ -341,7 +351,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 35,
+        "pk": 36,
         "fields": {
             "playbook": 5,
             "isRequired": false,
@@ -351,7 +361,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 36,
+        "pk": 37,
         "fields": {
             "playbook": 5,
             "isRequired": false,
@@ -361,7 +371,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 37,
+        "pk": 38,
         "fields": {
             "playbook": 6,
             "isRequired": false,
@@ -371,7 +381,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 38,
+        "pk": 39,
         "fields": {
             "playbook": 6,
             "isRequired": false,
@@ -381,7 +391,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 39,
+        "pk": 40,
         "fields": {
             "playbook": 6,
             "isRequired": false,
@@ -391,7 +401,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 40,
+        "pk": 41,
         "fields": {
             "playbook": 6,
             "isRequired": false,
@@ -401,7 +411,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 41,
+        "pk": 42,
         "fields": {
             "playbook": 6,
             "isRequired": false,
@@ -411,7 +421,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 42,
+        "pk": 43,
         "fields": {
             "playbook": 6,
             "isRequired": false,
@@ -421,7 +431,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 43,
+        "pk": 44,
         "fields": {
             "playbook": 6,
             "isRequired": false,
@@ -431,7 +441,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 44,
+        "pk": 45,
         "fields": {
             "playbook": 7,
             "isRequired": true,
@@ -441,7 +451,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 45,
+        "pk": 46,
         "fields": {
             "playbook": 7,
             "isRequired": false,
@@ -451,7 +461,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 46,
+        "pk": 47,
         "fields": {
             "playbook": 7,
             "isRequired": false,
@@ -461,7 +471,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 47,
+        "pk": 48,
         "fields": {
             "playbook": 7,
             "isRequired": false,
@@ -471,7 +481,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 48,
+        "pk": 49,
         "fields": {
             "playbook": 7,
             "isRequired": false,
@@ -481,7 +491,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 49,
+        "pk": 50,
         "fields": {
             "playbook": 7,
             "isRequired": false,
@@ -491,7 +501,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 50,
+        "pk": 51,
         "fields": {
             "playbook": 7,
             "isRequired": false,
@@ -501,7 +511,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 51,
+        "pk": 52,
         "fields": {
             "playbook": 7,
             "isRequired": false,
@@ -511,7 +521,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 52,
+        "pk": 53,
         "fields": {
             "playbook": 7,
             "isRequired": false,
@@ -521,7 +531,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 53,
+        "pk": 54,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -531,7 +541,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 54,
+        "pk": 55,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -541,7 +551,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 55,
+        "pk": 56,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -551,7 +561,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 56,
+        "pk": 57,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -561,7 +571,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 57,
+        "pk": 58,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -571,7 +581,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 58,
+        "pk": 59,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -581,7 +591,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 59,
+        "pk": 60,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -591,7 +601,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 60,
+        "pk": 61,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -601,7 +611,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 61,
+        "pk": 62,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -611,7 +621,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 62,
+        "pk": 63,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -621,7 +631,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 63,
+        "pk": 64,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -631,7 +641,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 64,
+        "pk": 65,
         "fields": {
             "playbook": 8,
             "isRequired": false,
@@ -641,7 +651,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 65,
+        "pk": 66,
         "fields": {
             "playbook": 9,
             "isRequired": true,
@@ -651,7 +661,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 66,
+        "pk": 67,
         "fields": {
             "playbook": 9,
             "isRequired": false,
@@ -661,7 +671,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 67,
+        "pk": 68,
         "fields": {
             "playbook": 9,
             "isRequired": false,
@@ -671,7 +681,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 68,
+        "pk": 69,
         "fields": {
             "playbook": 9,
             "isRequired": false,
@@ -681,7 +691,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 69,
+        "pk": 70,
         "fields": {
             "playbook": 9,
             "isRequired": false,
@@ -691,7 +701,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 70,
+        "pk": 71,
         "fields": {
             "playbook": 9,
             "isRequired": false,
@@ -701,7 +711,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 71,
+        "pk": 72,
         "fields": {
             "playbook": 9,
             "isRequired": false,
@@ -711,7 +721,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 72,
+        "pk": 73,
         "fields": {
             "playbook": 9,
             "isRequired": false,
@@ -721,7 +731,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 73,
+        "pk": 74,
         "fields": {
             "playbook": 10,
             "isRequired": true,
@@ -731,7 +741,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 74,
+        "pk": 75,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -741,7 +751,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 75,
+        "pk": 76,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -751,7 +761,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 76,
+        "pk": 77,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -761,7 +771,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 77,
+        "pk": 78,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -771,7 +781,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 78,
+        "pk": 79,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -781,7 +791,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 79,
+        "pk": 80,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -791,7 +801,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 80,
+        "pk": 81,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -801,7 +811,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 81,
+        "pk": 82,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -811,7 +821,7 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 82,
+        "pk": 83,
         "fields": {
             "playbook": 10,
             "isRequired": false,
@@ -821,12 +831,172 @@
     },
     {
         "model": "weeklyhuntapi.move",
-        "pk": 83,
+        "pk": 84,
         "fields": {
             "playbook": 10,
             "isRequired": false,
             "name": "Third Eye",
             "description": "When you read a bad situation, you can open up your third eye for a moment to take in extra information. Take +1 hold on any result of 7 or more, plus you can see invisible things. On a miss, you may still get 1 hold, but you’re exposed to super-natural danger. Unfiltered hidden reality is rough on the mind!"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 85,
+        "fields": {
+            "playbook": 11,
+            "isRequired": false,
+            "name": "Telepathy",
+            "description": "You can read people’s thoughts and put words in their mind. This can allow you to investigate a mystery or read a bad situation without needing to actually talk. You can also manipulate someone without speaking. You still roll moves as normal, except people will not expect the weirdness of your mental communication."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 86,
+        "fields": {
+            "playbook": 11,
+            "isRequired": false,
+            "name": "Hex",
+            "description": "When you cast a spell (with use magic), as well as the normal effects, you may pick from the follow-ing: The target contracts a disease; The target immediately suffers harm (2-harm magic ignore-armour); The target breaks something precious or important."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 87,
+        "fields": {
+            "playbook": 11,
+            "isRequired": false,
+            "name": "The Sight",
+            "description": "You can see the invisible, especially spirits and magical influences. You may communicate with (maybe even make deals with) the spirits you see, and they give you more opportunities to spot clues when you investigate a mystery."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 88,
+        "fields": {
+            "playbook": 11,
+            "isRequired": false,
+            "name": "Premonitions",
+            "description": "At the start of each mystery, roll +Weird. On a 10+, you get a detailed vision of some-thing bad that is yet to happen. You take +1 forward to prevent it coming true, and mark experience if you stop it. On a 7-9+ you get clouded images of some-thing bad that is yet to happen: mark experience if you stop it. On a miss, you get a vision of something bad happening to you and the Keeper holds 3, to be spent one-for-one as penalties to rolls you make."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 89,
+        "fields": {
+            "playbook": 11,
+            "isRequired": false,
+            "name": "Hunches",
+            "description": "When something bad is happening (or just about to happen) somewhere that you aren’t, roll +Sharp. On a 10+ you knew where you needed to go, just in time to get there. On a 7-9, you get there late—in time to intervene, but not prevent it altogether. On a miss, you get there just in time to be in trouble yourself."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 90,
+        "fields": {
+            "playbook": 11,
+            "isRequired": false,
+            "name": "Tune In",
+            "description": "You can attune your mind to a monster or minion. Roll +Weird. On a 10+, hold 3. On a 7-9, hold 1. On a miss, the monster becomes aware of you. Spend one hold to ask the Keeper one of the fol-lowing questions, and gain +1 ongoing while acting on the answers: Where is the creature right now? What is it planning to do right now? Who is it going to attack next? Who does it regard as the biggest threat? How can I attract its attention?"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 91,
+        "fields": {
+            "playbook": 11,
+            "isRequired": false,
+            "name": "The Big Whammy",
+            "description": "You can use your powers to kick some ass: roll +Weird instead of +Tough. The attack has 2-harm close obvious ignore-armour. On a miss, you’ll get a magical backlash."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 92,
+        "fields": {
+            "playbook": 11,
+            "isRequired": false,
+            "name": "Jinx",
+            "description": "You can encourage coincidences to occur, the way you want. When you jinx a target, roll +Weird. On a 10+ hold 2 and on a 7-9 hold 1. On a miss, the Keeper holds 2 over you to be used in the same way. Spend your hold to: Interfere with a hunter, giving them -1 forward; Help a hunter, giving them +1 forward, by interfering with their enemy; Interfere with what a monster, minion, or bystander is trying to do; Inflict 1-harm on the target due to an accident; The target finds something you left for them; The target loses something that you will soon find."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 93,
+        "fields": {
+            "playbook": 12,
+            "isRequired": true,
+            "name": "I Know My Prey",
+            "description": "You get +1 ongoing when knowingly investigating, pursuing or fighting the breed of monster that caused your loss."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 94,
+        "fields": {
+            "playbook": 12,
+            "isRequired": false,
+            "name": "Berserk",
+            "description": "No matter how much harm you take, you can always keep going until the current fight is over. During a fight, the Keeper may not use harm moves on you and you cannot die. When the fight ends, all harm takes effect as normal."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 95,
+        "fields": {
+            "playbook": 12,
+            "isRequired": false,
+            "name": "NEVER AGAIN",
+            "description": "In combat, you may choose to protect someone without rolling, as if you had rolled a 10+, but you may not choose to “suffer little harm."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 96,
+        "fields": {
+            "playbook": 12,
+            "isRequired": false,
+            "name": "What Does Not Kill Me...",
+            "description": "If you have suffered harm in a fight, you gain +1 ongoing until the fight is over."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 97,
+        "fields": {
+            "playbook": 12,
+            "isRequired": false,
+            "name": "Fervor",
+            "description": "When you manipulate someone, roll +Tough instead of +Charm."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 98,
+        "fields": {
+            "playbook": 12,
+            "isRequired": false,
+            "name": "Safety First",
+            "description": "You have jury-rigged extra protection into your gear, giving you +1 armour (maximum 2-armour)."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 99,
+        "fields": {
+            "playbook": 12,
+            "isRequired": false,
+            "name": "DIY Surgery",
+            "description": "When you do quick and dirty first aid on someone (including yourself ), roll +Cool. On a 10+ it’s all good, it counts as normal first aid, plus stabilize the injury and heal 1 harm. On a 7-9 it counts as normal first aid, plus one of these, your choice: Stabilise the injury but the patient takes -1 forward; Heal 1-harm and stabilise for now, but it will return as 2-harm and become unstable again later; Heal 1-harm and stabilise but the patient takes -1 ongoing until it’s fixed properly."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 100,
+        "fields": {
+            "playbook": 12,
+            "isRequired": false,
+            "name": "Tools Matter",
+            "description": "With your signature weapon (see your gear, below), you get +1 to kick some ass."
         }
     }
 ]
