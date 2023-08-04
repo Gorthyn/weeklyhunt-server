@@ -8,5 +8,205 @@
             "name": "Crazy Eyes",
             "description": "You get +1 Weird (max +3)."
         }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 2,
+        "fields": {
+            "playbook": 1,
+            "isRequired": false,
+            "name": "See, It All Fits Together",
+            "description": "You can use Sharp instead of Charm when you manipulate someone."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 3,
+        "fields": {
+            "playbook": 1,
+            "isRequired": false,
+            "name": "Suspicious Mind",
+            "description": "If someone lies to you, you know it."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 4,
+        "fields": {
+            "playbook": 1,
+            "isRequired": false,
+            "name": "Often Overlooked",
+            "description": "When you act all crazy to avoid something, roll +Weird. On a 10+ you’re regarded as unthreatening and unimportant. On a 7-9, pick one: unthreatening or unimportant. On a miss, you draw lots (but not all) of the attention."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 5,
+        "fields": {
+            "playbook": 1,
+            "isRequired": false,
+            "name": "Contrary",
+            "description": "When you seek out and receive some-one’s honest advice on the best course of action for you and then do something else instead, mark experience. If you do exactly the opposite of their advice, you also take +1 ongoing on any moves you make pursuing that course."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 6,
+        "fields": {
+            "playbook": 1,
+            "isRequired": false,
+            "name": "Net Friends",
+            "description": "You know a lot of people on the Inter-net. When you contact a net friend to help you with a mystery, roll +Charm. On a 10+, they’re available and helpful—they can fix something, break a code, hack a computer, or get you some special information. On a 7-9, they’re prepared to help, but it’s either going to take some time or you’re going to have to do part of it yourself. On a miss, you burn some bridges."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 7,
+        "fields": {
+            "playbook": 1,
+            "isRequired": false,
+            "name": "Sneaky",
+            "description": "When you attack from ambush, or from behind, inflict +2 harm."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 8,
+        "fields": {
+            "playbook": 2,
+            "isRequired": false,
+            "name": "Always The Victim",
+            "description": "When another hunter uses protect someone to protect you, they mark experience. Whenever a monster captures you, you mark experience."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 9,
+        "fields": {
+            "playbook": 2,
+            "isRequired": false,
+            "name": "Oops!",
+            "description": "If you want to stumble across something important, tell the Keeper. You will find something important and useful, although not necessarily related to your immediate problems."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 10,
+        "fields": {
+            "playbook": 2,
+            "isRequired": false,
+            "name": "Panic Button",
+            "description": "When you need to escape, name the route you’ll try and roll +Sharp. On a 10+ you’re out of danger, no problem. On a 7-9 you can go or stay, but if you go it’s going to cost you (you leave some-thing behind or something comes with you). On a miss, you are caught halfway out."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 11,
+        "fields": {
+            "playbook": 2,
+            "isRequired": false,
+            "name": "The Power of Heart",
+            "description": "When fighting a monster, if you help someone, don’t roll +Cool. You automatically help as though you’d rolled a 10."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 12,
+        "fields": {
+            "playbook": 2,
+            "isRequired": false,
+            "name": "Trust Me",
+            "description": "When you tell a normal person the truth in order to protect them from danger, roll +Charm. On a 10+ they’ll do what you say they should, no questions asked. On a 7-9 they do it, but the Keeper chooses one from: They ask you a hard question first; They stall and dither a while; They have a “better” idea. On a miss, they’re going to think you’re crazy and maybe dangerous too."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 13,
+        "fields": {
+            "playbook": 2,
+            "isRequired": false,
+            "name": "What Could Go Wrong?",
+            "description": "Whenever you charge into immediate danger without hedging your bets, hold 2. You may spend your hold to: Inflict +1 harm; Reduce someone’s harm suffered by 1; Take +2 forward on an act under pressure roll."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 14,
+        "fields": {
+            "playbook": 2,
+            "isRequired": false,
+            "name": "Don’t Worry, I’ll Check It Out",
+            "description": "Whenever you go off by yourself to check out somewhere (or some-thing) scary, mark experience."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 15,
+        "fields": {
+            "playbook": 3,
+            "isRequired": true,
+            "name": "Destiny’s Plaything",
+            "description": "At the beginning of each mystery, roll +Weird to see what is revealed about your immediate future. On a 10+, the Keeper will reveal a useful detail about the coming mystery. On a 7-9 you get a vague hint about it. On a miss, something bad is going to happen to you."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 16,
+        "fields": {
+            "playbook": 3,
+            "isRequired": true,
+            "name": "I’m Here For A Reason",
+            "description": "There’s something you are destined to do. Work out the details with the Keeper, based on your fate. You cannot die until it comes to pass. If you die in play, then you must spend a Luck point. You will then, somehow, recover or be returned to life. Once your task is done (or you use up all your Luck), all bets are off."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 17,
+        "fields": {
+            "playbook": 3,
+            "isRequired": false,
+            "name": "The Big Entrance",
+            "description": "When you make a showy entrance into a dangerous situation, roll +Cool. On 10+ everyone stops to watch and listen until you finish your opening speech. On a 7-9, you pick one person or monster to stop, watch and listen until you finish talking. On a miss, you’re marked as the biggest threat by all enemies who are present."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 18,
+        "fields": {
+            "playbook": 3,
+            "isRequired": false,
+            "name": "Devastating",
+            "description": "When you inflict harm, you may inflict +1 harm."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 19,
+        "fields": {
+            "playbook": 3,
+            "isRequired": false,
+            "name": "Dutiful",
+            "description": "When your fate rears its ugly head, and you act in accordance with any of your fate tags(either heroic or doom) then mark experience. If it’s a heroic tag, take +1 forward."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 20,
+        "fields": {
+            "playbook": 3,
+            "isRequired": false,
+            "name": "Invincible",
+            "description": "You always count as having 2-armour. This doesn’t stack with other protection."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.move",
+        "pk": 21,
+        "fields": {
+            "playbook": 3,
+            "isRequired": false,
+            "name": "Resilience",
+            "description": "You heal faster than normal people. Any time your harm gets healed, heal an extra point. Additionally, your wounds count as 1-harm less for the purpose of the Keeper’s harm moves."
+        }
     }
 ]
