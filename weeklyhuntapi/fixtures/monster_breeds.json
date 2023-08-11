@@ -1,0 +1,58 @@
+[
+    {
+        "model": "weeklyhuntapi.monster_breeds",
+        "pk": 1,
+        "fields": {
+            "name": "Vampire",
+            "description": "Curse: feed (blood or life-force). \nNatural attacks: Base: life-drain or Base: teeth; add +1 harm to base attack. \nMoves: immortal or unquenchable vitality; mental domination."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.monster_breeds",
+        "pk": 2,
+        "fields": {
+            "name": "Werewolf",
+            "description": "Curse: vulnerability (silver). \nNatural attacks: Base: claws; Base: teeth. \nMoves: shapeshifter (wolf and/or wolfman); claws of the beast or unholy strength."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.monster_breeds",
+        "pk": 3,
+        "fields": {
+            "name": "Ghost",
+            "description": "Curse: vulnerability (rock salt). \nNatural attacks: Base: magical force; add hand range to magical force. \nMoves: incorporeal; immortal."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.monster_breeds",
+        "pk": 4,
+        "fields": {
+            "name": "Faerie",
+            "description": "Curse: pure drive (joy). \nNatural attacks: Base: magical force; add ignore-armour to magical force. \nMoves: flight; preternatural speed."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.monster_breeds",
+        "pk": 5,
+        "fields": {
+            "name": "Demon",
+            "description": "Curse: pure drive (cruelty). \nNatural attacks: Base: claws; +1 harm to claws. \nMoves: dark negotiator; unquenchable vitality."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.monster_breeds",
+        "pk": 6,
+        "fields": {
+            "name": "Orc",
+            "description": "Curse: dark master (the orc overlord). \nNatural attacks: Base: teeth; add ignore-armour to teeth. \nMoves: Unholy strength; dark negotiator."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.monster_breeds",
+        "pk": 7,
+        "fields": {
+            "name": "Zombie",
+            "description": "Curse: pure drive (hunger), feed (flesh or brains). \nNatural attacks: Base: teeth; +1 harm to teeth. \nMoves: immortal; unquenchable vitality."
+        }
+    }
+]
