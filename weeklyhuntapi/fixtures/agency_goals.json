@@ -1,0 +1,30 @@
+[
+    {
+        "model": "weeklyhuntapi.agency_goals",
+        "pk": 1,
+        "fields": {
+            "description": "Destroy monsters"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.agency_goals",
+        "pk": 2,
+        "fields": {
+            "description": "Study the supernatural"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.agency_goals",
+        "pk": 3,
+        "fields": {
+            "description": "Protect people"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.agency_goals",
+        "pk": 4,
+        "fields": {
+            "description": "Gain power"
+        }
+    }
+]
