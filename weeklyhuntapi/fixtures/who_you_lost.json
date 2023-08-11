@@ -1,0 +1,37 @@
+[
+    {
+        "model": "weeklyhuntapi.who_you_lost",
+        "pk": 1,
+        "fields": {
+            "relation": "Your parent(s)"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.who_you_lost",
+        "pk": 2,
+        "fields": {
+            "relation": "Your sibling(s)"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.who_you_lost",
+        "pk": 3,
+        "fields": {
+            "relation": "Your spouse/partner"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.who_you_lost",
+        "pk": 4,
+        "fields": {
+            "relation": "Your child(ren)"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.who_you_lost",
+        "pk": 5,
+        "fields": {
+            "relation": "Your best friend(s)"
+        }
+    }
+]
