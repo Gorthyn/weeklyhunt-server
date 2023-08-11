@@ -1,0 +1,37 @@
+[
+    {
+        "model": "weeklyhuntapi.mission",
+        "pk": 1,
+        "fields": {
+            "description": "You are here to fight the schemes of an Adversary."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.mission",
+        "pk": 2,
+        "fields": {
+            "description": "The End of Days approaches. Your role is to guide these hunters and prevent it from coming to pass."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.mission",
+        "pk": 3,
+        "fields": {
+            "description": "The End of Days approaches. Your role is to guide these hunters and ensure it comes to pass."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.mission",
+        "pk": 4,
+        "fields": {
+            "description": "You have been exiled. You must work for the cause of Good without drawing attention from your brothers and sisters, as they are bound to execute you for your crimes."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.mission",
+        "pk": 5,
+        "fields": {
+            "description": "One of the other hunters has a crucial role in the events to come. You must prepare them for their role, and protect them at any cost."
+        }
+    }
+]
