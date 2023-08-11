@@ -1,0 +1,70 @@
+[
+    {
+        "model": "weeklyhuntapi.combat_effect",
+        "pk": 1,
+        "fields": {
+            "name": "Fire",
+            "harm_bonus": 2,
+            "type_bonus": "fire",
+            "attributes": [],
+            "special": "If you get a 10+ on a combat magic roll, the fire won’t spread."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.combat_effect",
+        "pk": 2,
+        "fields": {
+            "name": "Force or Wind",
+            "harm_bonus": 1,
+            "type_bonus": "forceful",
+            "attributes": ["armour_bonus_wall"],
+            "special": null
+        }
+    },
+    {
+        "model": "weeklyhuntapi.combat_effect",
+        "pk": 3,
+        "fields": {
+            "name": "Lightning or Entropy",
+            "harm_bonus": 1,
+            "type_bonus": "messy",
+            "attributes": [],
+            "special": null
+        }
+    },
+    {
+        "model": "weeklyhuntapi.combat_effect",
+        "pk": 4,
+        "fields": {
+            "name": "Frost or Ice",
+            "harm_bonus_wall": -1,
+            "armour_bonus_wall": 2,
+            "harm_bonus_other": 1,
+            "type_bonus": "restraining",
+            "attributes": [],
+            "special": null
+        }
+    },
+    {
+        "model": "weeklyhuntapi.combat_effect",
+        "pk": 5,
+        "fields": {
+            "name": "Earth",
+            "harm_bonus": 0,
+            "type_bonus": "forceful restraining",
+            "attributes": [],
+            "special": null
+        }
+    },
+    {
+        "model": "weeklyhuntapi.combat_effect",
+        "pk": 6,
+        "fields": {
+            "name": "Necromantic",
+            "harm_bonus": 0,
+            "type_bonus": "life-drain",
+            "attributes": [],
+            "special": null
+        }
+    }
+]
