@@ -1,0 +1,44 @@
+[
+    {
+        "model": "weeklyhuntapi.agency",
+        "pk": 1,
+        "fields": {
+            "type": "Black-budget Government Department"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.agency",
+        "pk": 2,
+        "fields": {
+            "type": "Secret Military Unit"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.agency",
+        "pk": 3,
+        "fields": {
+            "type": "Clandestine Police Team"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.agency",
+        "pk": 4,
+        "fields": {
+            "type": "Private Individual's Crusade"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.agency",
+        "pk": 5,
+        "fields": {
+            "type": "Corporation"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.agency",
+        "pk": 6,
+        "fields": {
+            "type": "Scientific Team"
+        }
+    }
+]
