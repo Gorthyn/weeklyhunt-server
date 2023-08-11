@@ -1,0 +1,34 @@
+[
+    {
+        "model": "weeklyhuntapi.curses",
+        "pk": 1,
+        "fields": {
+            "name": "Feed",
+            "description": "You must subsist on living humans — it might take the form of blood, brains, or spiritual essence but it must be from people. You need to act under pressure to resist feeding whenever a perfect opportunity presents itself."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.curses",
+        "pk": 2,
+        "fields": {
+            "name": "Vulnerability",
+            "description": "Pick a substance. You suffer +1 harm when you suffer harm from it. If you are bound or surrounded by it, you must act under pressure to use your powers."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.curses",
+        "pk": 3,
+        "fields": {
+            "name": "Pure Drive",
+            "description": "One emotion rules you. Pick from: hunger, hate, anger, fear, jealousy, greed, joy, pride, envy, lust, or cruelty. Whenever you have a chance to indulge that emotion, you must do so immediately, or act under pressure to resist."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.curses",
+        "pk": 4,
+        "fields": {
+            "name": "Dark Master",
+            "description": "You have an evil lord who doesn't know you changed sides. They still give you orders, and they do not tolerate refusal. Or failure."
+        }
+    }
+]
