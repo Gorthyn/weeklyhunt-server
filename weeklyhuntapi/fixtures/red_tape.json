@@ -1,0 +1,65 @@
+[
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 1,
+        "fields": {
+            "description": "Dubious motives"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 2,
+        "fields": {
+            "description": "Bureaucratic"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 3,
+        "fields": {
+            "description": "Secretive hierarchy"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 4,
+        "fields": {
+            "description": "Cryptic missions"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 5,
+        "fields": {
+            "description": "Hostile superiors"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 6,
+        "fields": {
+            "description": "Inter-departmental rivalry"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 7,
+        "fields": {
+            "description": "Budget cuts"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 8,
+        "fields": {
+            "description": "Take-No-Prisoners policy"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.red_tape",
+        "pk": 9,
+        "fields": {
+            "description": "Live Capture policy"
+        }
+    }
+]
