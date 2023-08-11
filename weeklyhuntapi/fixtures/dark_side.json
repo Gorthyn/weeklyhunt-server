@@ -1,0 +1,114 @@
+[
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 1,
+        "fields": {
+            "description": "Violence"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 2,
+        "fields": {
+            "description": "Depression"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 3,
+        "fields": {
+            "description": "Secrets"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 4,
+        "fields": {
+            "description": "Lust"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 5,
+        "fields": {
+            "description": "Dark bargain"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 6,
+        "fields": {
+            "description": "Guilt"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 7,
+        "fields": {
+            "description": "Soulless"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 8,
+        "fields": {
+            "description": "Addiction"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 9,
+        "fields": {
+            "description": "Mood swings"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 10,
+        "fields": {
+            "description": "Rage"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 11,
+        "fields": {
+            "description": "Self-destruction"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 12,
+        "fields": {
+            "description": "Greed for power"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 13,
+        "fields": {
+            "description": "Poor impulse control"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 14,
+        "fields": {
+            "description": "Hallucinations"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 15,
+        "fields": {
+            "description": "Pain"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.dark_side",
+        "pk": 16,
+        "fields": {
+            "description": "Paranoia"
+        }
+    }
+]
