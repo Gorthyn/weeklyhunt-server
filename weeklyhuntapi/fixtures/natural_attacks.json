@@ -1,0 +1,71 @@
+[
+    {
+        "model": "weeklyhuntapi.natural_attacks",
+        "pk": 1,
+        "fields": {
+            "name": "teeth",
+            "harm": 3,
+            "range": "intimate",
+            "type": "base"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.natural_attacks",
+        "pk": 2,
+        "fields": {
+            "name": "claws",
+            "harm": 2,
+            "range": "hand",
+            "type": "base"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.natural_attacks",
+        "pk": 3,
+        "fields": {
+            "name": "magical force",
+            "harm": 1,
+            "range": "close",
+            "is_magical": true,
+            "type": "base"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.natural_attacks",
+        "pk": 4,
+        "fields": {
+            "name": "life-drain",
+            "harm": 1,
+            "range": "intimate",
+            "is_life_drain": true,
+            "type": "base"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.natural_attacks",
+        "pk": 5,
+        "fields": {
+            "name": "Add +1 harm",
+            "harm": 1,
+            "type": "extra"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.natural_attacks",
+        "pk": 6,
+        "fields": {
+            "name": "Add ignore-armour",
+            "is_ignore_armour": true,
+            "type": "extra"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.natural_attacks",
+        "pk": 7,
+        "fields": {
+            "name": "Add an extra range",
+            "range": "intimate, hand, close",
+            "type": "extra"
+        }
+    }
+]
