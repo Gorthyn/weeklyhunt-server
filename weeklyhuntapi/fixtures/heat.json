@@ -1,0 +1,37 @@
+[
+    {
+        "model": "weeklyhuntapi.heat",
+        "pk": 1,
+        "fields": {
+            "description": "A police detective has made it a personal goal to put you away."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heat",
+        "pk": 2,
+        "fields": {
+            "description": "You have a rival from your background who never misses a chance to screw you over."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heat",
+        "pk": 3,
+        "fields": {
+            "description": "You pissed off a well-connected criminal and they'll do whatever they can to destroy you."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heat",
+        "pk": 4,
+        "fields": {
+            "description": "A person or monster with special powers who you took advantage of."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.heat",
+        "pk": 5,
+        "fields": {
+            "description": "An old partner you betrayed in the middle of a job."
+        }
+    }
+]
