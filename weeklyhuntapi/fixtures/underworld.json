@@ -1,0 +1,30 @@
+[
+    {
+        "model": "weeklyhuntapi.underworld",
+        "pk": 1,
+        "fields": {
+            "description": "The target of a job was a dangerous creature. Pick one: vampire, werewolf, troll, reptilian."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.underworld",
+        "pk": 2,
+        "fields": {
+            "description": "You worked with someone who was more than they seemed. Pick one: sorcerer, demon, faerie, psychic."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.underworld",
+        "pk": 3,
+        "fields": {
+            "description": "You were hired by something weird. Pick one: immortal, god, outsider, witch."
+        }
+    },
+    {
+        "model": "weeklyhuntapi.underworld",
+        "pk": 4,
+        "fields": {
+            "description": "Things went south on a job - including, but not limited to, running into (choose one): a horde of goblins, a hunger of ghouls, a dream-eater, a salamander."
+        }
+    }
+]
