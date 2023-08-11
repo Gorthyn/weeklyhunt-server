@@ -1,0 +1,202 @@
+[
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 1,
+        "fields": {
+            "tradition": "good",
+            "description": "Knowledgeable"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 2,
+        "fields": {
+            "tradition": "good",
+            "description": "Ancient lore"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 3,
+        "fields": {
+            "tradition": "good",
+            "description": "Magical lore"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 4,
+        "fields": {
+            "tradition": "good",
+            "description": "Fighting arts"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 5,
+        "fields": {
+            "tradition": "good",
+            "description": "Modernized"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 6,
+        "fields": {
+            "tradition": "good",
+            "description": "Chapters everywhere"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 7,
+        "fields": {
+            "tradition": "good",
+            "description": "Secular power"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 8,
+        "fields": {
+            "tradition": "good",
+            "description": "Flexible tactics"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 9,
+        "fields": {
+            "tradition": "good",
+            "description": "Open hierarchy"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 10,
+        "fields": {
+            "tradition": "good",
+            "description": "Integrated into society"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 11,
+        "fields": {
+            "tradition": "good",
+            "description": "Rich"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 12,
+        "fields": {
+            "tradition": "good",
+            "description": "Nifty gadgets"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 13,
+        "fields": {
+            "tradition": "good",
+            "description": "Magical items"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 14,
+        "fields": {
+            "tradition": "bad",
+            "description": "Dubious motives"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 15,
+        "fields": {
+            "tradition": "bad",
+            "description": "Tradition-bound"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 16,
+        "fields": {
+            "tradition": "bad",
+            "description": "Short-sighted"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 17,
+        "fields": {
+            "tradition": "bad",
+            "description": "Paranoid and secretive"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 18,
+        "fields": {
+            "tradition": "bad",
+            "description": "Closed hierarchy"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 19,
+        "fields": {
+            "tradition": "bad",
+            "description": "Factionalised"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 20,
+        "fields": {
+            "tradition": "bad",
+            "description": "Strict laws"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 21,
+        "fields": {
+            "tradition": "bad",
+            "description": "Mystical oaths"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 22,
+        "fields": {
+            "tradition": "bad",
+            "description": "Total obedience"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 23,
+        "fields": {
+            "tradition": "bad",
+            "description": "Tyrannical leaders"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 24,
+        "fields": {
+            "tradition": "bad",
+            "description": "Obsolete gear"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.sect",
+        "pk": 25,
+        "fields": {
+            "tradition": "bad",
+            "description": "Poor"
+        }
+    }
+]
