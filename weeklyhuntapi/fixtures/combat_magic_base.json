@@ -1,0 +1,46 @@
+[
+    {
+        "model": "weeklyhuntapi.combat_magic_base",
+        "pk": 1,
+        "fields": {
+            "name": "Blast",
+            "harm": 2,
+            "type": "magic",
+            "range": "close",
+            "attributes": ["obvious", "loud"]
+        }
+    },
+    {
+        "model": "weeklyhuntapi.combat_magic_base",
+        "pk": 2,
+        "fields": {
+            "name": "Ball",
+            "harm": 1,
+            "type": "magic",
+            "range": "area close",
+            "attributes": ["obvious", "loud"]
+        }
+    },
+    {
+        "model": "weeklyhuntapi.combat_magic_base",
+        "pk": 3,
+        "fields": {
+            "name": "Missile",
+            "harm": 1,
+            "type": "magic",
+            "range": "far",
+            "attributes": ["obvious", "loud"]
+        }
+    },
+    {
+        "model": "weeklyhuntapi.combat_magic_base",
+        "pk": 4,
+        "fields": {
+            "name": "Wall",
+            "harm": 1,
+            "type": "magic",
+            "range": "close",
+            "attributes": ["barrier", "1-armour", "obvious", "loud"]
+        }
+    }
+]
