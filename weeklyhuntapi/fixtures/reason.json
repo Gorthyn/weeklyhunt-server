@@ -1,0 +1,58 @@
+[
+    {
+        "model": "weeklyhuntapi.reason",
+        "pk": 1,
+        "fields": {
+            "description": "at fault"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.reason",
+        "pk": 2,
+        "fields": {
+            "description": "selfish"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.reason",
+        "pk": 3,
+        "fields": {
+            "description": "injured"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.reason",
+        "pk": 4,
+        "fields": {
+            "description": "weak"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.reason",
+        "pk": 5,
+        "fields": {
+            "description": "slow"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.reason",
+        "pk": 6,
+        "fields": {
+            "description": "scared"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.reason",
+        "pk": 7,
+        "fields": {
+            "description": "in denial"
+        }
+    },
+    {
+        "model": "weeklyhuntapi.reason",
+        "pk": 8,
+        "fields": {
+            "description": "complicit"
+        }
+    }
+]
