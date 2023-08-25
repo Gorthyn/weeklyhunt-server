@@ -12,7 +12,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "A conspiracy theorist. The Flake is great at finding things out and seeing how the events of separate mysteries are connected. E.g. Agent Mulder or The Lone Gunman from the X-Files."
+            "description": "A conspiracy theorist. The Flake is great at finding things out and seeing how the events of separate mysteries are connected. E.g. Agent Mulder or The Lone Gunman from the X-Files.",
+            "looks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+            "ratings": [1, 2, 3, 4, 5],
+            "histories": [33, 34, 35, 36, 37, 38, 39, 40],
+            "moves": [1, 2, 3, 4, 5, 6, 7, 8]
         }
     },
     {
