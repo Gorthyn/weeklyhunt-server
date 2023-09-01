@@ -72,7 +72,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "A criminal turned monster hunter, haunted by their past and enemies. The Crooked is good in social situations and has a lot of contacts. E.g. Anna Valmont from The Dresden Files, Peter Bishop from Fringe."
+            "description": "A criminal turned monster hunter, haunted by their past and enemies. The Crooked is good in social situations and has a lot of contacts. E.g. Anna Valmont from The Dresden Files, Peter Bishop from Fringe.",
+            "looks": [56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+            "ratings": [16, 17, 18, 19, 20],
+            "histories": [9, 10, 11, 12, 13, 14, 15, 16],
+            "moves": [23, 24, 25, 26, 27, 28, 29, 30]
         }
     },
     {
