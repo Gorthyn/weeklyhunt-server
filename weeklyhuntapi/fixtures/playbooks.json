@@ -152,7 +152,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "A monster fighting for the good guys. The Monstrous is very weird, and can have a variety of different powers based on what monster breed they are. E.g. Angel from Buffy the Vampire Slayer and Angel; Bill Compton from True Blood."
+            "description": "A monster fighting for the good guys. The Monstrous is very weird, and can have a variety of different powers based on what monster breed they are. E.g. Angel from Buffy the Vampire Slayer and Angel; Bill Compton from True Blood.",
+            "looks": [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137],
+            "ratings": [36, 37, 38, 39, 40],
+            "histories": [49, 50, 51, 52, 53, 54, 55, 56],
+            "moves": [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
         }
     },
     {
