@@ -192,7 +192,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "A trained wizard, wielding powerful magic in their crusade against evil. The Spell-slinger’s arcane training gives them an advantage when dealing with eldritch secrets. E.g. Harry Dresden from The Dresden Files; Willow from Buffy the Vampire Slayer, in the later seasons."
+            "description": "A trained wizard, wielding powerful magic in their crusade against evil. The Spell-slinger’s arcane training gives them an advantage when dealing with eldritch secrets. E.g. Harry Dresden from The Dresden Files; Willow from Buffy the Vampire Slayer, in the later seasons.",
+            "looks": [155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165],
+            "ratings": [46, 47, 48, 49, 50],
+            "histories": [73, 74, 75, 76, 77, 78, 79, 80],
+            "moves": [74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84]
         }
     },
     {
