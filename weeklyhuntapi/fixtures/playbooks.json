@@ -132,7 +132,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "A member of an ancient monster-slaying Sect, trained to fight and use magic. The Initiate is good with magic, and their Sect provides help (and sometimes problems). E.g. The Wardens from The Dresden Files; Annelise from the Twenty Palaces series."
+            "description": "A member of an ancient monster-slaying Sect, trained to fight and use magic. The Initiate is good with magic, and their Sect provides help (and sometimes problems). E.g. The Wardens from The Dresden Files; Annelise from the Twenty Palaces series.",
+            "looks": [103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117],
+            "ratings": [31, 32, 33, 34, 35],
+            "histories": [41, 42, 43, 44, 45, 46, 47, 48],
+            "moves": [45, 46, 47, 48, 49, 50, 51, 52, 53]
         }
     },
     {
