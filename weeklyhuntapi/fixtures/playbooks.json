@@ -32,7 +32,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "Just a normal regular person, especially good at dealing with regular people you meet and have to save, and at getting captured by monsters - which can be more useful than you might think. E.g. Xander or Cordelia from Buffy the Vampire Slayer, Olivia Dunham from Fringe."
+            "description": "Just a normal regular person, especially good at dealing with regular people you meet and have to save, and at getting captured by monsters - which can be more useful than you might think. E.g. Xander or Cordelia from Buffy the Vampire Slayer, Olivia Dunham from Fringe.",
+            "looks": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36],
+            "ratings": [6, 7, 8, 9, 10],
+            "histories": [57, 58, 59, 60, 61, 62, 63, 64],
+            "moves": [9, 10, 11, 12, 13, 14, 15]
         }
     },
     {
