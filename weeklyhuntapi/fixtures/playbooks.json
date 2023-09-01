@@ -232,7 +232,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "Revenge-driven, and really tough. The Wronged is all about killing a specific breed of monster and protecting others as you do it. E.g. Dean and John Winchester from Supernatural."
+            "description": "Revenge-driven, and really tough. The Wronged is all about killing a specific breed of monster and protecting others as you do it. E.g. Dean and John Winchester from Supernatural.",
+            "looks": [186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201],
+            "ratings": [56, 57, 58, 59, 60],
+            "histories": [89, 90, 91, 92, 93, 94, 95, 96],
+            "moves": [93, 94, 95, 96, 97, 98, 99, 100]
         }
     }
 ]
