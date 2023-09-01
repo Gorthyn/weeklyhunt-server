@@ -212,7 +212,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "Has psychic or magical powers. These powers are strange and sinister ... and not completely under the Spooky’s control. E.g. Sam Winchester from Supernatural; Eleven from Stranger Things."
+            "description": "Has psychic or magical powers. These powers are strange and sinister ... and not completely under the Spooky’s control. E.g. Sam Winchester from Supernatural; Eleven from Stranger Things.",
+            "looks": [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185],
+            "ratings": [51, 52, 53, 54, 55],
+            "histories": [81, 82, 83, 84, 85, 86, 87, 88],
+            "moves": [85, 86, 87, 88, 89, 90, 91, 92]
         }
     },
     {
