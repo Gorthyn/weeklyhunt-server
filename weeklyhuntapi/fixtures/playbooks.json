@@ -52,7 +52,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "A once-ordinary person who discovered they have a special destiny, and who has been given the power to accomplish it. The Chosen is good in a fight, with some weird powers. E.g. Buffy from Buffy the Vampire Slayer."
+            "description": "A once-ordinary person who discovered they have a special destiny, and who has been given the power to accomplish it. The Chosen is good in a fight, with some weird powers. E.g. Buffy from Buffy the Vampire Slayer.",
+            "looks": [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+            "ratings": [11, 12, 13, 14, 15],
+            "histories": [1, 2, 3, 4, 5, 6, 7, 8],
+            "moves": [16, 17, 18, 19, 20, 21, 22]
         }
     },
     {
