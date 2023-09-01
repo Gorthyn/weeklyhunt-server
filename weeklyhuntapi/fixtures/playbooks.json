@@ -92,7 +92,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "An agent of a higher power, with a mission to fulfill. The Divine is very tough and has been granted holy powers. E.g. Castiel from Supernatural; Michael Carpenter from The Dresden Files."
+            "description": "An agent of a higher power, with a mission to fulfill. The Divine is very tough and has been granted holy powers. E.g. Castiel from Supernatural; Michael Carpenter from The Dresden Files.",
+            "looks": [69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86],
+            "ratings": [21, 22, 23, 24, 25],
+            "histories": [17, 18, 19, 20, 21, 22, 23, 24],
+            "moves": [31, 32, 33, 34, 35, 36, 37]
         }
     },
     {
