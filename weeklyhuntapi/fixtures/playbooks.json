@@ -112,7 +112,11 @@
             "luck_slots": 7,
             "harm_slots": 7,
             "experience_slots": 5,
-            "description": "The hunter who knows all about monsters and magic. The Expert knows a lot of hidden secrets and how to find out more, and also has a well-supplied base to work from. E.g. Bobby Singer from Supernatural; Rupert Giles from Buffy the Vampire Slayer."
+            "description": "The hunter who knows all about monsters and magic. The Expert knows a lot of hidden secrets and how to find out more, and also has a well-supplied base to work from. E.g. Bobby Singer from Supernatural; Rupert Giles from Buffy the Vampire Slayer.",
+            "looks": [87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102],
+            "ratings": [26, 27, 28, 29, 30],
+            "histories": [25, 26, 27, 28, 29, 30, 31, 32],
+            "moves": [38, 39, 40, 41, 42, 43, 44]
         }
     },
     {
