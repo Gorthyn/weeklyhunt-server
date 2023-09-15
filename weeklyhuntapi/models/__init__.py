@@ -13,7 +13,7 @@ from .chosen_forms import ChosenForm
 from .chosen_materials import ChosenMaterial
 from .chosen_weapons import ChosenWeapon
 from .combat_effects import CombatEffect
-from .combat_magic_effects import CombatMagicBase
+from .combat_magic_base import CombatMagicBase
 from .curses import Curse
 from .dark_side import DarkSide
 from .dice_roller import DiceRoll
