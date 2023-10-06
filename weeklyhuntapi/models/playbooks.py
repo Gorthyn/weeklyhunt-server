@@ -47,3 +47,4 @@ class Playbook(models.Model):
     sect = models.ForeignKey('Sect', on_delete=models.SET_NULL, null=True, blank=True)
     underworld = models.ForeignKey('Underworld', on_delete=models.SET_NULL, null=True, blank=True)
     who_you_lost = models.ForeignKey('WhoYouLost', on_delete=models.SET_NULL, null=True, blank=True)
+    
