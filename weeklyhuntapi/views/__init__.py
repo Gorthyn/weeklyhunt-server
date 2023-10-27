@@ -14,3 +14,11 @@ from .chosen_forms import ChosenFormView
 from .chosen_materials import ChosenMaterialView
 from .chosen_weapons import ChosenWeaponView
 from .combat_effects import CombatEffectView
+from .combat_magic_base import CombatMagicBaseView
+from .curses import CurseView
+from .dark_side import DarkSideView
+from .dice_roller import roll_2d6
+from .doom import DoomView
+from .fate import FateView
+from .gear import GearView
+from .haven import HavenView
