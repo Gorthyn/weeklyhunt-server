@@ -30,3 +30,12 @@ from .look import LookView
 from .mission import MissionView
 from .monster_breeds import MonsterBreedsView
 from .moves import MoveView
+from .natural_attacks import NaturalAttacksView
+from .playbooks import PlaybookView
+from .ratings import RatingView
+from .reason import ReasonView
+from .red_tape import RedTapeView
+from .resources import ResourcesView
+from .sect import SectView
+from .underworld import UnderworldView
+from .who_you_lost import WhoYouLostView
