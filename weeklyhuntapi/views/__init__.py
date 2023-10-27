@@ -22,3 +22,11 @@ from .doom import DoomView
 from .fate import FateView
 from .gear import GearView
 from .haven import HavenView
+from .heat import HeatView
+from .heroic import HeroicView
+from .histories import HistoryView
+from .improvements import ImprovementView
+from .look import LookView
+from .mission import MissionView
+from .monster_breeds import MonsterBreedsView
+from .moves import MoveView
