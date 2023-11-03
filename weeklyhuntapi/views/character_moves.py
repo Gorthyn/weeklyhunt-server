@@ -33,6 +33,15 @@ class CharacterMoveView(ViewSet):
         serializer.is_valid(raise_exception=True)
         serializer.save()
         return Response({}, status=status.HTTP_204_NO_CONTENT)
+    
+    def destroy(self, request, pk=None):
+        """Handle DELETE requests for character move"""
+        try:
+            character_move = CharacterMove.objects.get(pk=pk)
+            character_move.delete()
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+        except CharacterMove.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
 class CharacterMoveSerializer(serializers.ModelSerializer):
     class Meta:
