@@ -18,6 +18,21 @@ class CharacterMoveView(ViewSet):
         character_moves = CharacterMove.objects.all()
         serializer = CharacterMoveSerializer(character_moves, many=True)
         return Response(serializer.data)
+    
+    def create(self, request):
+        """Handle POST operations for character move"""
+        serializer = CharacterMoveSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        """Handle PUT requests for character move"""
+        character_move = CharacterMove.objects.get(pk=pk)
+        serializer = CharacterMoveSerializer(character_move, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 class CharacterMoveSerializer(serializers.ModelSerializer):
     class Meta:
