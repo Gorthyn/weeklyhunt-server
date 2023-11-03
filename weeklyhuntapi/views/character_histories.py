@@ -21,6 +21,21 @@ class CharacterHistoryView(ViewSet):
         serializer = CharacterHistorySerializer(char_histories, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        """Handle POST operations for character history"""
+        serializer = CharacterHistorySerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        """Handle PUT requests for character history"""
+        char_history = CharacterHistory.objects.get(pk=pk)
+        serializer = CharacterHistorySerializer(char_history, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
 class CharacterHistorySerializer(serializers.ModelSerializer):
     """JSON serializer for character histories"""
     class Meta:
