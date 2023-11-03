@@ -19,6 +19,21 @@ class CharacterImprovementView(ViewSet):
         serializer = CharacterImprovementSerializer(character_improvements, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        """Handle POST operations for character improvement"""
+        serializer = CharacterImprovementSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        """Handle PUT requests for character improvement"""
+        character_improvement = CharacterImprovement.objects.get(pk=pk)
+        serializer = CharacterImprovementSerializer(character_improvement, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
 class CharacterImprovementSerializer(serializers.ModelSerializer):
     class Meta:
         model = CharacterImprovement
