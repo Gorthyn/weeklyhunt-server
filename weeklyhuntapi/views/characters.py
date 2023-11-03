@@ -18,6 +18,21 @@ class CharacterView(ViewSet):
         characters = Character.objects.all()
         serializer = CharacterSerializer(characters, many=True)
         return Response(serializer.data)
+    
+    def create(self, request):
+        """Handle POST operations for character"""
+        serializer = CharacterSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        """Handle PUT requests for character"""
+        character = Character.objects.get(pk=pk)
+        serializer = CharacterSerializer(character, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 class CharacterSerializer(serializers.ModelSerializer):
     class Meta:
