@@ -22,6 +22,27 @@ class AgencyGoalsView(ViewSet):
         goals = AgencyGoals.objects.all()
         serializer = AgencyGoalsSerializer(goals, many=True)
         return Response(serializer.data)
+    
+    
+    def create(self, request):
+        serializer = AgencyGoalsSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def update(self, request, pk=None):
+        goal = AgencyGoals.objects.get(pk=pk)
+        serializer = AgencyGoalsSerializer(goal, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        goal = AgencyGoals.objects.get(pk=pk)
+        goal.delete()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 class AgencyGoalsSerializer(serializers.ModelSerializer):
     """JSON serializer for agency goals"""
