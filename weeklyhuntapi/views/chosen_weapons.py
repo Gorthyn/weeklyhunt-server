@@ -19,6 +19,26 @@ class ChosenWeaponView(ViewSet):
         serializer = ChosenWeaponSerializer(chosen_weapons, many=True)
         return Response(serializer.data)
     
+    def create(self, request):
+        serializer = ChosenWeaponSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def update(self, request, pk=None):
+        weapon = ChosenWeapon.objects.get(pk=pk)
+        serializer = ChosenWeaponSerializer(weapon, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        weapon = ChosenWeapon.objects.get(pk=pk)
+        weapon.delete()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+    
 class ChosenWeaponSerializer(serializers.ModelSerializer):
     class Meta:
         model = ChosenWeapon
