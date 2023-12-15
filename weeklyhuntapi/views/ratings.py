@@ -19,6 +19,26 @@ class RatingView(ViewSet):
         serializer = RatingSerializer(ratings, many=True)
         return Response(serializer.data)
     
+    def create(self, request):
+        serializer = RatingSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def update(self, request, pk=None):
+        rating = Rating.objects.get(pk=pk)
+        serializer = RatingSerializer(rating, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        rating = Rating.objects.get(pk=pk)
+        rating.delete()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
 class RatingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Rating
