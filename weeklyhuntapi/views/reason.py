@@ -19,6 +19,26 @@ class ReasonView(ViewSet):
         serializer = ReasonSerializer(reasons, many=True)
         return Response(serializer.data)
     
+    def create(self, request):
+        serializer = ReasonSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def update(self, request, pk=None):
+        reason = Reason.objects.get(pk=pk)
+        serializer = ReasonSerializer(reason, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        reason = Reason.objects.get(pk=pk)
+        reason.delete()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
 class ReasonSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reason
