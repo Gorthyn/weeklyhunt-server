@@ -19,6 +19,26 @@ class NaturalAttacksView(ViewSet):
         serializer = NaturalAttacksSerializer(natural_attacks, many=True)
         return Response(serializer.data)
     
+    def create(self, request):
+        serializer = NaturalAttacksSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def update(self, request, pk=None):
+        natural_attack = NaturalAttacks.objects.get(pk=pk)
+        serializer = NaturalAttacksSerializer(natural_attack, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        natural_attack = NaturalAttacks.objects.get(pk=pk)
+        natural_attack.delete()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
 class NaturalAttacksSerializer(serializers.ModelSerializer):
     class Meta:
         model = NaturalAttacks
