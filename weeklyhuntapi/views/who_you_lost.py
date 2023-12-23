@@ -19,6 +19,26 @@ class WhoYouLostView(ViewSet):
         serializer = WhoYouLostSerializer(who_you_losts, many=True)
         return Response(serializer.data)
     
+    def create(self, request):
+        serializer = WhoYouLostSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def update(self, request, pk=None):
+        who_you_lost = WhoYouLost.objects.get(pk=pk)
+        serializer = WhoYouLostSerializer(who_you_lost, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        who_you_lost = WhoYouLost.objects.get(pk=pk)
+        who_you_lost.delete()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
 class WhoYouLostSerializer(serializers.ModelSerializer):
     class Meta:
         model = WhoYouLost
