@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from weeklyhuntapi.views import login_user, register_user, BasicMoveView, dice_roller
+from weeklyhuntapi.views import login_user, register_user, BasicMoveView, dice_roller, AdvancedImprovementsView, AgencyGoalsView, AgencyView, BackgroundView, ChosenBusinessEndView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'basicmoves', BasicMoveView, 'basicmove')
