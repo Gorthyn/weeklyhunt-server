@@ -22,6 +22,9 @@ from weeklyhuntapi.views import login_user, register_user, BasicMoveView, dice_r
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'basicmoves', BasicMoveView, 'basicmove')
+router.register(r'advancedimprovements', AdvancedImprovementsView, 'advancedimprovement')
+router.register(r'agencygoals', AgencyGoalsView, 'agencygoal')
+router.register(r'agencies', AgencyView, 'agency')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
