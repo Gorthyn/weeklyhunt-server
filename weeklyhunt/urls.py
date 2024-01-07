@@ -25,6 +25,9 @@ router.register(r'basicmoves', BasicMoveView, 'basicmove')
 router.register(r'advancedimprovements', AdvancedImprovementsView, 'advancedimprovement')
 router.register(r'agencygoals', AgencyGoalsView, 'agencygoal')
 router.register(r'agencies', AgencyView, 'agency')
+router.register(r'backgrounds', BackgroundView, 'background')
+router.register(r'chosenbusinessends', ChosenBusinessEndView, 'chosenbusinessend')
+router.register(r'chosenforms', ChosenFormView, 'chosenform')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
