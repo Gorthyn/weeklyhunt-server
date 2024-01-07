@@ -28,6 +28,9 @@ router.register(r'agencies', AgencyView, 'agency')
 router.register(r'backgrounds', BackgroundView, 'background')
 router.register(r'chosenbusinessends', ChosenBusinessEndView, 'chosenbusinessend')
 router.register(r'chosenforms', ChosenFormView, 'chosenform')
+router.register(r'chosenmaterials', ChosenMaterialView, 'chosenmaterial')
+router.register(r'chosenweapons', ChosenWeaponView, 'chosenweapon')
+router.register(r'combateffects', CombatEffectView, 'combateffect')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
