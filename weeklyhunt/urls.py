@@ -31,6 +31,9 @@ router.register(r'chosenforms', ChosenFormView, 'chosenform')
 router.register(r'chosenmaterials', ChosenMaterialView, 'chosenmaterial')
 router.register(r'chosenweapons', ChosenWeaponView, 'chosenweapon')
 router.register(r'combateffects', CombatEffectView, 'combateffect')
+router.register(r'combatmagicbases', CombatMagicBaseView, 'combatmagicbase')
+router.register(r'curses', CurseView, 'curse')
+router.register(r'darksides', DarkSideView, 'darkside')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
