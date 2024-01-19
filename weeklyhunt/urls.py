@@ -34,6 +34,9 @@ router.register(r'combateffects', CombatEffectView, 'combateffect')
 router.register(r'combatmagicbases', CombatMagicBaseView, 'combatmagicbase')
 router.register(r'curses', CurseView, 'curse')
 router.register(r'darksides', DarkSideView, 'darkside')
+router.register(r'dooms', DoomView, 'doom')
+router.register(r'fates', FateView, 'fate')
+router.register(r'gears', GearView, 'gear')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
