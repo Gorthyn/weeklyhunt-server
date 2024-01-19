@@ -40,6 +40,9 @@ router.register(r'gears', GearView, 'gear')
 router.register(r'havens', HavenView, 'haven')
 router.register(r'heats', HeatView, 'heat')
 router.register(r'heroics', HeroicView, 'heroic')
+router.register(r'histories', HistoryView, 'history')
+router.register(r'improvements', ImprovementView, 'improvement')
+router.register(r'looks', LookView, 'look')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
