@@ -43,6 +43,9 @@ router.register(r'heroics', HeroicView, 'heroic')
 router.register(r'histories', HistoryView, 'history')
 router.register(r'improvements', ImprovementView, 'improvement')
 router.register(r'looks', LookView, 'look')
+router.register(r'missions', MissionView, 'mission')
+router.register(r'monsterbreeds', MonsterBreedsView, 'monsterbreed')
+router.register(r'moves', MoveView, 'move')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
