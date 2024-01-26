@@ -62,4 +62,6 @@ urlpatterns = [
     path('roll/', dice_roller, name='roll_2d6'),
     path('login/', login_user, name='login'),
     path('register/', register_user, name='register'),
+    path('basicmoves/', BasicMoveList.as_view(), name='basicmove-list'),
+    path('basicmoves/<int:pk>/', BasicMoveDetail.as_view(), name='basicmove-detail'),
 ]
