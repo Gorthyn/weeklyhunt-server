@@ -61,4 +61,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('roll/', dice_roller, name='roll_2d6'),
     path('login/', login_user, name='login'),
+    path('register/', register_user, name='register'),
 ]
