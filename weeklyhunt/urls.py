@@ -52,6 +52,9 @@ router.register(r'ratings', RatingView, 'rating')
 router.register(r'reasons', ReasonView, 'reason')
 router.register(r'redtapes', RedTapeView, 'redtape')
 router.register(r'resources', ResourcesView, 'resource')
+router.register(r'sects', SectView, 'sect')
+router.register(r'underworlds', UnderworldView, 'underworld')
+router.register(r'whoyoulosts', WhoYouLostView, 'whoyoulost')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
