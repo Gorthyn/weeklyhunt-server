@@ -49,6 +49,9 @@ router.register(r'moves', MoveView, 'move')
 router.register(r'naturalattacks', NaturalAttacksView, 'naturalattack')
 router.register(r'playbooks', PlaybookView, 'playbook')
 router.register(r'ratings', RatingView, 'rating')
+router.register(r'reasons', ReasonView, 'reason')
+router.register(r'redtapes', RedTapeView, 'redtape')
+router.register(r'resources', ResourcesView, 'resource')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
