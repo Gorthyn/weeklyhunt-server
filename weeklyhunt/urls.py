@@ -73,4 +73,9 @@ urlpatterns = [
     path('chosenweapons', ChosenWeaponView, 'chosenweapon'),
     path('combateffects', CombatEffectView, 'combateffect'),
     path('combatmagicbases', CombatMagicBaseView, 'combatmagicbase'),
+    path('curses', CurseView, 'curse'),
+    path('darksides', DarkSideView, 'darkside'),
+    path('dooms', DoomView, 'doom'),
+    path('fates', FateView, 'fate'),
+    path('gears', GearView, 'gear'),
 ]
