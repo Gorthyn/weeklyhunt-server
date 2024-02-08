@@ -93,4 +93,7 @@ urlpatterns = [
     path('reasons', ReasonView, 'reason'),
     path('redtapes', RedTapeView, 'redtape'),
     path('resources', ResourcesView, 'resource'),
+    path('sects', SectView, 'sect'),
+    path('underworlds', UnderworldView, 'underworld'),
+    path('whoyoulosts', WhoYouLostView, 'whoyoulost'),
 ]
