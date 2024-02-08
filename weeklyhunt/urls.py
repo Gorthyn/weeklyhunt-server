@@ -78,4 +78,9 @@ urlpatterns = [
     path('dooms', DoomView, 'doom'),
     path('fates', FateView, 'fate'),
     path('gears', GearView, 'gear'),
+    path('havens', HavenView, 'haven'),
+    path('heats', HeatView, 'heat'),
+    path('heroics', HeroicView, 'heroic'),
+    path('histories', HistoryView, 'history'),
+    path('improvements', ImprovementView, 'improvement'),
 ]
