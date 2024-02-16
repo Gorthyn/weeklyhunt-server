@@ -13,3 +13,7 @@ class CharacterModelTest(TestCase):
         self.assertEqual(character.name, "John Doe")
         self.assertEqual(character.playbook.name, "The Divine")
         self.assertEqual(character.charm, 2)
+        self.assertEqual(character.cool, 1)
+        self.assertEqual(character.sharp, 0)
+        self.assertEqual(character.tough, 2)
+        self.assertEqual(character.weird, -1)
