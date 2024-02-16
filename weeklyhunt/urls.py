@@ -89,11 +89,4 @@ urlpatterns = [
     path('moves', MoveView, 'move'),
     path('naturalattacks', NaturalAttacksView, 'naturalattack'),
     path('playbooks', PlaybookView, 'playbook'),
-    path('ratings', RatingView, 'rating'),
-    path('reasons', ReasonView, 'reason'),
-    path('redtapes', RedTapeView, 'redtape'),
-    path('resources', ResourcesView, 'resource'),
-    path('sects', SectView, 'sect'),
-    path('underworlds', UnderworldView, 'underworld'),
-    path('whoyoulosts', WhoYouLostView, 'whoyoulost'),
 ]
