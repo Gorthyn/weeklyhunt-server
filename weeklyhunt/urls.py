@@ -83,10 +83,4 @@ urlpatterns = [
     path('heroics', HeroicView, 'heroic'),
     path('histories', HistoryView, 'history'),
     path('improvements', ImprovementView, 'improvement'),
-    path('looks', LookView, 'look'),
-    path('missions', MissionView, 'mission'),
-    path('monsterbreeds', MonsterBreedsView, 'monsterbreed'),
-    path('moves', MoveView, 'move'),
-    path('naturalattacks', NaturalAttacksView, 'naturalattack'),
-    path('playbooks', PlaybookView, 'playbook'),
 ]
