@@ -35,3 +35,8 @@ class CharacterDetailViewTest(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.character.refresh_from_db()
         self.assertEqual(self.character.name, 'Jane Doe')
+
+    def test_delete_character(self):
+        response = self.client.delete(self.detail_url)
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+        self.assertEqual(Character.objects.count(), 0)
