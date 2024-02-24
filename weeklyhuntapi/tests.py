@@ -17,3 +17,10 @@ class CharacterModelTest(TestCase):
         self.assertEqual(character.sharp, 0)
         self.assertEqual(character.tough, 2)
         self.assertEqual(character.weird, -1)
+
+class CharacterDetailViewTest(APITestCase):
+    def setUp(self):
+        self.client = APIClient()
+        self.playbook = Playbook.objects.create(name="The Divine", description="Description of The Divine.")
+        self.character = Character.objects.create(name="John Doe", playbook=self.playbook, charm=2, cool=1, sharp=1, tough=-1, weird=2)
+        self.detail_url = reverse('character-detail', kwargs={'pk': self.character.pk})
