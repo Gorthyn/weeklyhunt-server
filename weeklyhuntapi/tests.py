@@ -24,3 +24,8 @@ class CharacterDetailViewTest(APITestCase):
         self.playbook = Playbook.objects.create(name="The Divine", description="Description of The Divine.")
         self.character = Character.objects.create(name="John Doe", playbook=self.playbook, charm=2, cool=1, sharp=1, tough=-1, weird=2)
         self.detail_url = reverse('character-detail', kwargs={'pk': self.character.pk})
+
+    def test_get_character_detail(self):
+        response = self.client.get(self.detail_url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(response.data['name'], 'John Doe')
