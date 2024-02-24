@@ -40,3 +40,12 @@ class CharacterDetailViewTest(APITestCase):
         response = self.client.delete(self.detail_url)
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
         self.assertEqual(Character.objects.count(), 0)
+
+class CharacterInvalidDataTest(APITestCase):
+    def setUp(self):
+        self.client = APIClient()
+        self.character_url = reverse('character-list')
+
+    def test_create_character_with_invalid_data(self):
+        response = self.client.post(self.character_url, {'name': '', 'playbook_id': 999, 'charm': 'invalid'})
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
