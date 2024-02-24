@@ -29,3 +29,9 @@ class CharacterDetailViewTest(APITestCase):
         response = self.client.get(self.detail_url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(response.data['name'], 'John Doe')
+
+    def test_update_character(self):
+        response = self.client.patch(self.detail_url, {'name': 'Jane Doe'})
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.character.refresh_from_db()
+        self.assertEqual(self.character.name, 'Jane Doe')
