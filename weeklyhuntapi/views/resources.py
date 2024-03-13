@@ -18,26 +18,6 @@ class ResourcesView(ViewSet):
         resources = Resources.objects.all()
         serializer = ResourcesSerializer(resources, many=True)
         return Response(serializer.data)
-    
-    def create(self, request):
-        serializer = ResourcesSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def update(self, request, pk=None):
-        resource = Resources.objects.get(pk=pk)
-        serializer = ResourcesSerializer(resource, data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({}, status=status.HTTP_204_NO_CONTENT)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def destroy(self, request, pk=None):
-        resource = Resources.objects.get(pk=pk)
-        resource.delete()
-        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 class ResourcesSerializer(serializers.ModelSerializer):
     class Meta:

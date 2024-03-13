@@ -18,26 +18,6 @@ class UnderworldView(ViewSet):
         underworlds = Underworld.objects.all()
         serializer = UnderworldSerializer(underworlds, many=True)
         return Response(serializer.data)
-    
-    def create(self, request):
-        serializer = UnderworldSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def update(self, request, pk=None):
-        underworld = Underworld.objects.get(pk=pk)
-        serializer = UnderworldSerializer(underworld, data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({}, status=status.HTTP_204_NO_CONTENT)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def destroy(self, request, pk=None):
-        underworld = Underworld.objects.get(pk=pk)
-        underworld.delete()
-        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 class UnderworldSerializer(serializers.ModelSerializer):
     class Meta:
