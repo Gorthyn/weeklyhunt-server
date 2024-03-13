@@ -19,26 +19,6 @@ class CombatMagicBaseView(ViewSet):
         serializer = CombatMagicBaseSerializer(combat_magic_bases, many=True)
         return Response(serializer.data)
     
-    def create(self, request):
-        serializer = CombatMagicBaseSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def update(self, request, pk=None):
-        magic_base = CombatMagicBase.objects.get(pk=pk)
-        serializer = CombatMagicBaseSerializer(magic_base, data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({}, status=status.HTTP_204_NO_CONTENT)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def destroy(self, request, pk=None):
-        magic_base = CombatMagicBase.objects.get(pk=pk)
-        magic_base.delete()
-        return Response({}, status=status.HTTP_204_NO_CONTENT)
-    
 class CombatMagicBaseSerializer(serializers.ModelSerializer):
     class Meta:
         model = CombatMagicBase

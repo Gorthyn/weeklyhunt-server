@@ -18,26 +18,6 @@ class CurseView(ViewSet):
         curses = Curse.objects.all()
         serializer = CurseSerializer(curses, many=True)
         return Response(serializer.data)
-    
-    def create(self, request):
-        serializer = CurseSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def update(self, request, pk=None):
-        curse = Curse.objects.get(pk=pk)
-        serializer = CurseSerializer(curse, data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({}, status=status.HTTP_204_NO_CONTENT)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    def destroy(self, request, pk=None):
-        curse = Curse.objects.get(pk=pk)
-        curse.delete()
-        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 class CurseSerializer(serializers.ModelSerializer):
     class Meta:
