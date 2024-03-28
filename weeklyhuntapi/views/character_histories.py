@@ -17,7 +17,7 @@ class CharacterHistoryView(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        char_histories = CharacterHistory.objects.all()
+        char_histories = CharacterHistory.objects.select_related('character', 'history').all()
         serializer = CharacterHistorySerializer(char_histories, many=True)
         return Response(serializer.data)
 
