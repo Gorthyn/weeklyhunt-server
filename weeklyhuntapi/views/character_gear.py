@@ -17,7 +17,7 @@ class CharacterGearView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all character gears"""
-        character_gears = CharacterGear.objects.all()
+        character_gears = CharacterGear.objects.select_related('character', 'gear').all()
         serializer = CharacterGearSerializer(character_gears, many=True)
         return Response(serializer.data)
 
