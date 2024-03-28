@@ -15,7 +15,7 @@ class CharacterMoveView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        character_moves = CharacterMove.objects.all()
+        character_moves = CharacterMove.objects.select_related('character', 'move').all()
         serializer = CharacterMoveSerializer(character_moves, many=True)
         return Response(serializer.data)
     
