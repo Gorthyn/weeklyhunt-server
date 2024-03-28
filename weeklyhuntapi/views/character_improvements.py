@@ -15,7 +15,7 @@ class CharacterImprovementView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        character_improvements = CharacterImprovement.objects.all()
+        character_improvements = CharacterImprovement.objects.select_related('character', 'improvement').all()
         serializer = CharacterImprovementSerializer(character_improvements, many=True)
         return Response(serializer.data)
 
