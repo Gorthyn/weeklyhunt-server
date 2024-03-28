@@ -8,14 +8,14 @@ class CharacterView(ViewSet):
 
     def retrieve(self, request, pk=None):
         try:
-            character = Character.objects.get(pk=pk)
+            character = Character.objects.select_related('playbook').prefetch_related('gear').get(pk=pk)
             serializer = CharacterSerializer(character)
             return Response(serializer.data)
         except Character.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        characters = Character.objects.all()
+        characters = Character.objects.select_related('playbook').prefetch_related('gear').all()
         serializer = CharacterSerializer(characters, many=True)
         return Response(serializer.data)
     
