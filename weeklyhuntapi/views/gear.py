@@ -15,7 +15,7 @@ class GearView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        gears = Gear.objects.all()
+        gears = Gear.objects.select_related('playbook').all()
         serializer = GearSerializer(gears, many=True)
         return Response(serializer.data)
 
