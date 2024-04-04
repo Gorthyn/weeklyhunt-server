@@ -15,7 +15,7 @@ class ChosenWeaponView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        chosen_weapons = ChosenWeapon.objects.all()
+        chosen_weapons = ChosenWeapon.objects.prefetch_related('character', 'form', 'material', 'businessEnd1', 'businessEnd2', 'businessEnd3').all()
         serializer = ChosenWeaponSerializer(chosen_weapons, many=True)
         return Response(serializer.data)
     
