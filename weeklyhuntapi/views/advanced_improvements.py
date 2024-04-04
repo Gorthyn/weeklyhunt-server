@@ -18,10 +18,10 @@ class AdvancedImprovementsView(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        """Handle GET requests to get all improvements"""
-        improvements = AdvancedImprovements.objects.all()
+        improvements = AdvancedImprovements.objects.select_related('playbook').all()
         serializer = AdvancedImprovementsSerializer(improvements, many=True)
         return Response(serializer.data)
+
 
 class AdvancedImprovementsSerializer(serializers.ModelSerializer):
     class Meta:
