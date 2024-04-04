@@ -18,8 +18,7 @@ class BasicMoveView(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        """Handle GET requests to get all moves"""
-        moves = BasicMove.objects.all()
+        moves = BasicMove.objects.select_related('playbook').all()
         serializer = BasicMoveSerializer(moves, many=True)
         return Response(serializer.data)
 
