@@ -15,7 +15,7 @@ class HistoryView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        histories = History.objects.all()
+        histories = History.objects.select_related('playbook').all()
         serializer = HistorySerializer(histories, many=True)
         return Response(serializer.data)
 
