@@ -15,7 +15,7 @@ class SectView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        sects = Sect.objects.all()
+        sects = Sect.objects.all()  # Add prefetch_related if there are related models.
         serializer = SectSerializer(sects, many=True)
         return Response(serializer.data)
 
