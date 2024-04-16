@@ -15,7 +15,7 @@ class WhoYouLostView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        who_you_losts = WhoYouLost.objects.all()
+        who_you_losts = WhoYouLost.objects.all()  # Add prefetch_related if there are frequent accesses to related data.
         serializer = WhoYouLostSerializer(who_you_losts, many=True)
         return Response(serializer.data)
 
