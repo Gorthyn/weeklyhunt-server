@@ -15,7 +15,7 @@ class MoveView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        moves = Move.objects.all()
+        moves = Move.objects.select_related('playbook').all()
         serializer = MoveSerializer(moves, many=True)
         return Response(serializer.data)
 
