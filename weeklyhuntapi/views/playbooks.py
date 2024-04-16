@@ -15,7 +15,7 @@ class PlaybookView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        playbooks = Playbook.objects.all()
+        playbooks = Playbook.objects.prefetch_related('advanced_improvements', 'basic_moves', 'histories', 'improvements', 'look', 'moves', 'ratings', 'gear', 'dice_roller').all()
         serializer = PlaybookSerializer(playbooks, many=True)
         return Response(serializer.data)
 
