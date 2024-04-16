@@ -15,7 +15,7 @@ class LookView(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
-        looks = Look.objects.all()
+        looks = Look.objects.select_related('playbook').all()
         serializer = LookSerializer(looks, many=True)
         return Response(serializer.data)
 
