@@ -19,6 +19,24 @@ class ChosenFormView(ViewSet):
         serializer = ChosenFormSerializer(chosen_forms, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = ChosenFormSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        chosen_form = ChosenForm.objects.get(pk=pk)
+        serializer = ChosenFormSerializer(chosen_form, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        chosen_form = ChosenForm.objects.get(pk=pk)
+        chosen_form.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class ChosenFormSerializer(serializers.ModelSerializer):
     class Meta:
         model = ChosenForm
