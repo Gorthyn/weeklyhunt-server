@@ -19,6 +19,24 @@ class DoomView(ViewSet):
         serializer = DoomSerializer(dooms, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = DoomSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        doom = Doom.objects.get(pk=pk)
+        serializer = DoomSerializer(doom, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        doom = Doom.objects.get(pk=pk)
+        doom.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class DoomSerializer(serializers.ModelSerializer):
     class Meta:
         model = Doom
