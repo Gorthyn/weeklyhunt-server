@@ -19,6 +19,24 @@ class FateView(ViewSet):
         serializer = FateSerializer(fates, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = FateSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        fate = Fate.objects.get(pk=pk)
+        serializer = FateSerializer(fate, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        fate = Fate.objects.get(pk=pk)
+        fate.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class FateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Fate
