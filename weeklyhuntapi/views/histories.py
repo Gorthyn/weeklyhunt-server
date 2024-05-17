@@ -19,6 +19,24 @@ class HistoryView(ViewSet):
         serializer = HistorySerializer(histories, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = HistorySerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        history = History.objects.get(pk=pk)
+        serializer = HistorySerializer(history, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        history = History.objects.get(pk=pk)
+        history.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class HistorySerializer(serializers.ModelSerializer):
     class Meta:
         model = History
