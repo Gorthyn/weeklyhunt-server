@@ -19,6 +19,24 @@ class HeroicView(ViewSet):
         serializer = HeroicSerializer(heroics, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = HeroicSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        heroic = Heroic.objects.get(pk=pk)
+        serializer = HeroicSerializer(heroic, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        heroic = Heroic.objects.get(pk=pk)
+        heroic.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class HeroicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Heroic
