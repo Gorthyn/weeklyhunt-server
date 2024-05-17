@@ -19,6 +19,24 @@ class GearView(ViewSet):
         serializer = GearSerializer(gears, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = GearSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        gear = Gear.objects.get(pk=pk)
+        serializer = GearSerializer(gear, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        gear = Gear.objects.get(pk=pk)
+        gear.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class GearSerializer(serializers.ModelSerializer):
     class Meta:
         model = Gear
