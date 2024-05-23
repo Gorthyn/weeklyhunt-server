@@ -19,6 +19,24 @@ class MonsterBreedsView(ViewSet):
         serializer = MonsterBreedsSerializer(monster_breeds, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = MonsterBreedsSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        monster_breed = MonsterBreeds.objects.get(pk=pk)
+        serializer = MonsterBreedsSerializer(monster_breed, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        monster_breed = MonsterBreeds.objects.get(pk=pk)
+        monster_breed.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class MonsterBreedsSerializer(serializers.ModelSerializer):
     class Meta:
         model = MonsterBreeds
