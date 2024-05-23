@@ -19,6 +19,24 @@ class LookView(ViewSet):
         serializer = LookSerializer(looks, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = LookSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        look = Look.objects.get(pk=pk)
+        serializer = LookSerializer(look, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        look = Look.objects.get(pk=pk)
+        look.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class LookSerializer(serializers.ModelSerializer):
     class Meta:
         model = Look
