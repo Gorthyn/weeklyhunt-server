@@ -19,6 +19,24 @@ class PlaybookView(ViewSet):
         serializer = PlaybookSerializer(playbooks, many=True)
         return Response(serializer.data)
 
+    def create(self, request):
+        serializer = PlaybookSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        playbook = Playbook.objects.get(pk=pk)
+        serializer = PlaybookSerializer(playbook, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        playbook = Playbook.objects.get(pk=pk)
+        playbook.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 class PlaybookSerializer(serializers.ModelSerializer):
     advanced_improvements = serializers.StringRelatedField(many=True)
     basic_moves = serializers.StringRelatedField(many=True)
