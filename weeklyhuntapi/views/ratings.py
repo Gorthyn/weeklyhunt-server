@@ -18,6 +18,24 @@ class RatingView(ViewSet):
         ratings = Rating.objects.all()
         serializer = RatingSerializer(ratings, many=True)
         return Response(serializer.data)
+    
+    def create(self, request):
+        serializer = RatingSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def update(self, request, pk=None):
+        rating = Rating.objects.get(pk=pk)
+        serializer = RatingSerializer(rating, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+    def destroy(self, request, pk=None):
+        rating = Rating.objects.get(pk=pk)
+        rating.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 class RatingSerializer(serializers.ModelSerializer):
     class Meta:
