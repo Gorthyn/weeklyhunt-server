@@ -66,3 +66,10 @@ class NaturalAttacksTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(len(response.data), 1)
 
+    def test_create_natural_attack(self):
+        url = reverse('naturalattacks-list')
+        data = {"name": "Bite", "harm": 3, "range": "Melee", "type": "Piercing"}
+        response = self.client.post(url, data, format='json')
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertEqual(NaturalAttacks.objects.count(), 2)
+
