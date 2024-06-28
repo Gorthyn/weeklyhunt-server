@@ -79,3 +79,7 @@ class NaturalAttacksTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
         self.assertEqual(NaturalAttacks.objects.count(), 0)
 
+class PlaybookTests(APITestCase):
+    def setUp(self):
+        self.playbook = Playbook.objects.create(name="Hunter", description="Tracks supernatural creatures.")
+
