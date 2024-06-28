@@ -60,3 +60,9 @@ class NaturalAttacksTests(APITestCase):
         self.client.login(username='testuser', password='testpassword')
         self.natural_attack = NaturalAttacks.objects.create(name="Claw", harm=2, range="Short", type="Slashing")
 
+    def test_get_natural_attacks(self):
+        url = reverse('naturalattacks-list')
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(len(response.data), 1)
+
