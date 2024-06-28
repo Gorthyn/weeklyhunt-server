@@ -4,6 +4,10 @@ from rest_framework.test import APITestCase
 from rest_framework import status
 from django.urls import reverse
 from rest_framework.test import APIClient
+from rest_framework import status
+from rest_framework.test import APITestCase
+from weeklyhuntapi.models import NaturalAttacks, Playbook, Rating
+from django.contrib.auth.models import User
 
 # Create your tests here. Will need to create tests to validate pull requests for future use in moving to the front end.
 class CharacterModelTest(TestCase):
@@ -49,3 +53,10 @@ class CharacterInvalidDataTest(APITestCase):
     def test_create_character_with_invalid_data(self):
         response = self.client.post(self.character_url, {'name': '', 'playbook_id': 999, 'charm': 'invalid'})
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+class NaturalAttacksTests(APITestCase):
+    def setUp(self):
+        self.user = User.objects.create_user(username='testuser', password='testpassword')
+        self.client.login(username='testuser', password='testpassword')
+        self.natural_attack = NaturalAttacks.objects.create(name="Claw", harm=2, range="Short", type="Slashing")
+
