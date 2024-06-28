@@ -73,3 +73,9 @@ class NaturalAttacksTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(NaturalAttacks.objects.count(), 2)
 
+    def test_delete_natural_attack(self):
+        url = reverse('naturalattacks-detail', args=[self.natural_attack.id])
+        response = self.client.delete(url)
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+        self.assertEqual(NaturalAttacks.objects.count(), 0)
+
