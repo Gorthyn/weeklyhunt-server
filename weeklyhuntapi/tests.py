@@ -113,3 +113,11 @@ class RatingTests(APITestCase):
         response = self.client.post(url, data, format='json')
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(Rating.objects.count(), 2)
+
+    def test_update_rating(self):
+        url = reverse('rating-detail', args=[self.rating.id])
+        data = {"charm": 3, "cool": 1, "sharp": 2, "tough": 0, "weird": 3}
+        response = self.client.put(url, data, format='json')
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.rating.refresh_from_db()
+        self.assertEqual(self.rating.sharp, 2)
