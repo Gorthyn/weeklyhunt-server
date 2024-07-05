@@ -96,3 +96,13 @@ class PlaybookTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.playbook.refresh_from_db()
         self.assertEqual(self.playbook.name, "Monster Hunter")
+
+class RatingTests(APITestCase):
+    def setUp(self):
+        self.rating = Rating.objects.create(charm=2, cool=1, sharp=1, tough=-1, weird=2)
+
+    def test_rating_list(self):
+        url = reverse('rating-list')
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(len(response.data), 1)
