@@ -88,3 +88,11 @@ class PlaybookTests(APITestCase):
         response = self.client.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertContains(response, self.playbook.name)
+
+    def test_update_playbook(self):
+        url = reverse('playbook-detail', args=[self.playbook.id])
+        data = {"name": "Monster Hunter", "description": "Hunts down monsters."}
+        response = self.client.put(url, data, format='json')
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.playbook.refresh_from_db()
+        self.assertEqual(self.playbook.name, "Monster Hunter")
