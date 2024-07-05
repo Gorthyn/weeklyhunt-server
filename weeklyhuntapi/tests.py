@@ -83,3 +83,8 @@ class PlaybookTests(APITestCase):
     def setUp(self):
         self.playbook = Playbook.objects.create(name="Hunter", description="Tracks supernatural creatures.")
 
+    def test_get_playbook(self):
+        url = reverse('playbook-detail', args=[self.playbook.id])
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertContains(response, self.playbook.name)
