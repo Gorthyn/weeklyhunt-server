@@ -106,3 +106,10 @@ class RatingTests(APITestCase):
         response = self.client.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(len(response.data), 1)
+
+    def test_create_rating(self):
+        url = reverse('rating-list')
+        data = {"charm": 3, "cool": 1, "sharp": 0, "tough": 2, "weird": -1}
+        response = self.client.post(url, data, format='json')
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertEqual(Rating.objects.count(), 2)
