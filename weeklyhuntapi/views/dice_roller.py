@@ -17,3 +17,17 @@ def roll_2d6(request):
         'modifier': modifier,
         'total': total
     })
+
+def roll_1d20(request):
+    modifier = int(request.GET.get('modifier', 0))  # Optional modifier
+    result = random.randint(1, 20)
+    total = result + modifier
+    
+    # Save the result to the database
+    DiceRoll.objects.create(result_1=result, result_2=None, modifier=modifier, total=total, roll_type='1d20')
+    
+    return JsonResponse({
+        'result': result,
+        'modifier': modifier,
+        'total': total
+    })
