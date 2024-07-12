@@ -17,7 +17,7 @@ from .combat_effects import CombatEffectView
 from .combat_magic_base import CombatMagicBaseView
 from .curses import CurseView
 from .dark_side import DarkSideView
-from .dice_roller import roll_2d6
+from .dice_roller import roll_2d6, roll_1d20, flip_2sidedcoin
 from .doom import DoomView
 from .fate import FateView
 from .gear import GearView

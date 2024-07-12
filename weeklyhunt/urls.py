@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from weeklyhuntapi.views import login_user, register_user, BasicMoveView, dice_roller, AdvancedImprovementsView, AgencyGoalsView, AgencyView, BackgroundView, ChosenBusinessEndView, ChosenFormView, ChosenMaterialView, ChosenWeaponView, CombatEffectView, CombatMagicBaseView, CurseView, DarkSideView, DoomView, FateView, GearView, HavenView, HeatView, HeroicView, HistoryView, ImprovementView, LookView, MissionView, MonsterBreedsView, MoveView, NaturalAttacksView, PlaybookView, RatingView, ReasonView, RedTapeView, ResourcesView, SectView, UnderworldView, WhoYouLostView
+from weeklyhuntapi.views import login_user, register_user, BasicMoveView, roll_2d6, roll_1d20, flip_2sidedcoin, AdvancedImprovementsView, AgencyGoalsView, AgencyView, BackgroundView, ChosenBusinessEndView, ChosenFormView, ChosenMaterialView, ChosenWeaponView, CombatEffectView, CombatMagicBaseView, CurseView, DarkSideView, DoomView, FateView, GearView, HavenView, HeatView, HeroicView, HistoryView, ImprovementView, LookView, MissionView, MonsterBreedsView, MoveView, NaturalAttacksView, PlaybookView, RatingView, ReasonView, RedTapeView, ResourcesView, SectView, UnderworldView, WhoYouLostView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'basicmoves', BasicMoveView, 'basicmove')
@@ -59,7 +59,9 @@ router.register(r'whoyoulosts', WhoYouLostView, 'whoyoulost')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    path('roll/', dice_roller, name='roll_2d6'),
+    path('roll-2d6/', roll_2d6, name='roll-2d6'),
+    path('roll-1d20/', roll_1d20, name='roll-1d20'),
+    path('flip-2sidedcoin/', flip_2sidedcoin, name='flip-2sidedcoin'),
     path('login/', login_user, name='login'),
     path('register/', register_user, name='register'),
 ]
