@@ -53,11 +53,13 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_THROTTLE_CLASSES': [
         'rest_framework.throttling.AnonRateThrottle',
-        'rest_framework.throttling.UserRateThrottle'
+        'rest_framework.throttling.UserRateThrottle',
+        'weeklyhuntapi.throttling.DiceRollThrottle'  # Adding the custom throttle class for dice rolling
     ],
     'DEFAULT_THROTTLE_RATES': {
         'anon': '100/day',
-        'user': '1000/day'
+        'user': '1000/day',
+        'dice_roll': '10/minute'  # New throttle rate for dice rolling
     }
 }
 
