@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from django.core.cache import cache
 from weeklyhuntapi.models import DiceRoll
 from django.contrib.auth.decorators import login_required
+from django.db import transaction
 
 logger = logging.getLogger(__name__)
 
@@ -20,7 +21,8 @@ def roll_2d6(request):
         result_2 = random.randint(1, 6)
         total = result_1 + result_2 + modifier
         
-        DiceRoll.objects.create(result_1=result_1, result_2=result_2, modifier=modifier, total=total, roll_type='2d6')
+        with transaction.atomic():
+            DiceRoll.objects.create(result_1=result_1, result_2=result_2, modifier=modifier, total=total, roll_type='2d6')
         
         response_data = {
             'result_1': result_1,
@@ -44,7 +46,8 @@ def roll_1d20(request):
         result = random.randint(1, 20)
         total = result + modifier
         
-        DiceRoll.objects.create(result_1=result, result_2=None, modifier=modifier, total=total, roll_type='1d20')
+        with transaction.atomic():
+            DiceRoll.objects.create(result_1=result, result_2=None, modifier=modifier, total=total, roll_type='1d20')
         
         return JsonResponse({
             'result': result,
@@ -60,9 +63,11 @@ def flip_2sidedcoin(request):
     try:
         result = random.choice(['Heads', 'Tails'])
         
-        DiceRoll.objects.create(result_1=1 if result == 'Heads' else 0, result_2=None, modifier=0, total=1 if result == 'Heads' else 0, roll_type='coin')
+        with transaction.atomic():
+            DiceRoll.objects.create(result_1=1 if result == 'Heads' else 0, result_2=None, modifier=0, total=1 if result == 'Heads' else 0, roll_type='coin')
         
         return JsonResponse({'result': result})
     except Exception as e:
         logger.error(f"Failed to flip a 2-sided coin: {str(e)}")
         return JsonResponse({"error": "Error processing your coin flip"}, status=500)
+    
