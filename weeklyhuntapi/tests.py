@@ -121,3 +121,56 @@ class RatingTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.rating.refresh_from_db()
         self.assertEqual(self.rating.sharp, 2)
+
+from django.test import TestCase, Client
+from django.urls import reverse
+from django.contrib.auth import get_user_model
+from .models import DiceRoll
+
+class DiceRollTests(TestCase):
+    def setUp(self):
+        # Set up a user for the tests
+        self.user = get_user_model().objects.create_user(username='testuser', password='12345')
+        self.client = Client()
+        self.client.login(username='testuser', password='12345')
+
+    def test_roll_2d6(self):
+        url = reverse('roll_2d6')
+        response = self.client.get(url, {'modifier': 3})
+        self.assertEqual(response.status_code, 200)
+        json_response = response.json()
+        self.assertIn('total', json_response)
+        self.assertEqual(json_response['result_1'] + json_response['result_2'] + json_response['modifier'], json_response['total'])
+
+    def test_roll_1d20(self):
+        url = reverse('roll_1d20')
+        response = self.client.get(url, {'modifier': 5})
+        self.assertEqual(response.status_code, 200)
+        json_response = response.json()
+        self.assertIn('total', json_response)
+        self.assertEqual(json_response['result'] + json_response['modifier'], json_response['total'])
+
+    def test_flip_2sidedcoin(self):
+        url = reverse('flip_2sidedcoin')
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, 200)
+        json_response = response.json()
+        self.assertIn('result', json_response)
+        self.assertTrue(json_response['result'] in ['Heads', 'Tails'])
+
+    def test_invalid_modifier(self):
+        url = reverse('roll_2d6')
+        response = self.client.get(url, {'modifier': 'invalid'})
+        self.assertEqual(response.status_code, 400)  # Expecting a failure due to invalid modifier type
+
+    def test_excessive_modifier(self):
+        url = reverse('roll_2d6')
+        response = self.client.get(url, {'modifier': 100})
+        self.assertEqual(response.status_code, 400)  # Modifier should be outside valid range
+
+# Ensure the DiceRoll model is saving data correctly
+class DiceRollModelTests(TestCase):
+    def test_dice_roll_creation(self):
+        dice_roll = DiceRoll.objects.create(result_1=3, result_2=4, modifier=1, total=8, roll_type='2d6')
+        self.assertEqual(dice_roll.total, 8)
+
