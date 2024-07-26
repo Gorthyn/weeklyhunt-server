@@ -4,8 +4,13 @@ from django.core.cache import cache
 from weeklyhuntapi.models import DiceRoll
 from django.contrib.auth.decorators import login_required
 from django.db import transaction
+from django.core.exceptions import ValidationError
 
 logger = logging.getLogger(__name__)
+
+def validate_modifier(modifier):
+    if not -10 <= modifier <= 10:
+        raise ValidationError("Modifier must be between -10 and 10.")
 
 @login_required
 def roll_2d6(request):
@@ -17,6 +22,7 @@ def roll_2d6(request):
 
     try:
         modifier = int(request.GET.get('modifier', 0))
+        validate_modifier(modifier)  # Validate the modifier
         result_1 = random.randint(1, 6)
         result_2 = random.randint(1, 6)
         total = result_1 + result_2 + modifier
@@ -35,6 +41,9 @@ def roll_2d6(request):
         cache.set(cache_key, response_data, timeout=3600)
 
         return JsonResponse(response_data)
+    except ValidationError as e:
+        logger.error(f"Modifier validation error: {str(e)}")
+        return JsonResponse({"error": str(e)}, status=400)
     except Exception as e:
         logger.error(f"Failed to roll 2d6: {str(e)}")
         return JsonResponse({"error": "Error processing your dice roll"}, status=500)
@@ -43,6 +52,7 @@ def roll_2d6(request):
 def roll_1d20(request):
     try:
         modifier = int(request.GET.get('modifier', 0))
+        validate_modifier(modifier)  # Validate the modifier here as well
         result = random.randint(1, 20)
         total = result + modifier
         
@@ -54,6 +64,9 @@ def roll_1d20(request):
             'modifier': modifier,
             'total': total
         })
+    except ValidationError as e:
+        logger.error(f"Modifier validation error: {str(e)}")
+        return JsonResponse({"error": str(e)}, status=400)
     except Exception as e:
         logger.error(f"Failed to roll 1d20: {str(e)}")
         return JsonResponse({"error": "Error processing your dice roll"}, status=500)
@@ -70,4 +83,3 @@ def flip_2sidedcoin(request):
     except Exception as e:
         logger.error(f"Failed to flip a 2-sided coin: {str(e)}")
         return JsonResponse({"error": "Error processing your coin flip"}, status=500)
-    
