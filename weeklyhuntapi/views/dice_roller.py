@@ -22,13 +22,13 @@ def roll_2d6(request):
 
     try:
         modifier = int(request.GET.get('modifier', 0))
-        validate_modifier(modifier)  # Validate the modifier
+        validate_modifier(modifier)
         result_1 = random.randint(1, 6)
         result_2 = random.randint(1, 6)
         total = result_1 + result_2 + modifier
         
         with transaction.atomic():
-            DiceRoll.objects.create(result_1=result_1, result_2=result_2, modifier=modifier, total=total, roll_type='2d6')
+            DiceRoll.objects.create(result_1=result_1, result_2=result_2, modifier=modifier, total=total, roll_type='2d6', user=request.user)
         
         response_data = {
             'result_1': result_1,
@@ -49,15 +49,20 @@ def roll_2d6(request):
         return JsonResponse({"error": "Error processing your dice roll"}, status=500)
 
 @login_required
+def user_dice_history(request):
+    user_rolls = DiceRoll.objects.filter(user=request.user).order_by('-created_at')
+    return JsonResponse({'rolls': list(user_rolls.values('result_1', 'result_2', 'modifier', 'total', 'roll_type', 'created_at'))})
+
+@login_required
 def roll_1d20(request):
     try:
         modifier = int(request.GET.get('modifier', 0))
-        validate_modifier(modifier)  # Validate the modifier here as well
+        validate_modifier(modifier)
         result = random.randint(1, 20)
         total = result + modifier
         
         with transaction.atomic():
-            DiceRoll.objects.create(result_1=result, result_2=None, modifier=modifier, total=total, roll_type='1d20')
+            DiceRoll.objects.create(result_1=result, result_2=None, modifier=modifier, total=total, roll_type='1d20', user=request.user)
         
         return JsonResponse({
             'result': result,
@@ -77,7 +82,7 @@ def flip_2sidedcoin(request):
         result = random.choice(['Heads', 'Tails'])
         
         with transaction.atomic():
-            DiceRoll.objects.create(result_1=1 if result == 'Heads' else 0, result_2=None, modifier=0, total=1 if result == 'Heads' else 0, roll_type='coin')
+            DiceRoll.objects.create(result_1=1 if result == 'Heads' else 0, result_2=None, modifier=0, total=1 if result == 'Heads' else 0, roll_type='coin', user=request.user)
         
         return JsonResponse({'result': result})
     except Exception as e:
