@@ -2,9 +2,11 @@ import random, logging
 from django.http import JsonResponse
 from django.core.cache import cache
 from weeklyhuntapi.models import DiceRoll
+from django.contrib.auth.decorators import login_required
 
 logger = logging.getLogger(__name__)
 
+@login_required
 def roll_2d6(request):
     cache_key = 'recent_2d6_rolls'
     recent_rolls = cache.get(cache_key)
@@ -35,6 +37,7 @@ def roll_2d6(request):
         logger.error(f"Failed to roll 2d6: {str(e)}")
         return JsonResponse({"error": "Error processing your dice roll"}, status=500)
 
+@login_required
 def roll_1d20(request):
     try:
         modifier = int(request.GET.get('modifier', 0))
@@ -52,6 +55,7 @@ def roll_1d20(request):
         logger.error(f"Failed to roll 1d20: {str(e)}")
         return JsonResponse({"error": "Error processing your dice roll"}, status=500)
 
+@login_required
 def flip_2sidedcoin(request):
     try:
         result = random.choice(['Heads', 'Tails'])
